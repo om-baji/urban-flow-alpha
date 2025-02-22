@@ -1,12 +1,25 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
+import Sidebar from "@/components/sidebar";
 
 interface MapMarker {
   locationName: string;
   lat: number;
   lng: number;
   address: string;
+  accidents?: {
+    today: number;
+    overall: number;
+  };
+  violations?: {
+    total: number;
+    reported: number;
+  };
+  challans?: {
+    total: number;
+    collected_amount: number;
+  };
 }
 
 interface MapOptions {
@@ -27,22 +40,53 @@ const Response = () => {
   const mapRef = useRef<google.maps.Map | null>(null);
   const threeRendererRef = useRef<THREE.WebGLRenderer | null>(null);
   const animationFrameRef = useRef<number>(0);
+  const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
+  const [selectedMarker, setSelectedMarker] = useState<MapMarker | null>(null);
 
   useEffect(() => {
     const markers: MapMarker[] = [
       {
-        locationName: "Area",
+        locationName: "Traffic Center A",
         lat: 18.58676425801763,
         lng: 73.90690857301867,
-        address: "Default Address",
+        address: "Pune Region A",
+        accidents: {
+          today: 5,
+          overall: 150
+        },
+        violations: {
+          total: 45,
+          reported: 38
+        },
+        challans: {
+          total: 78,
+          collected_amount: 15600
+        }
       },
       {
-        locationName: "Area",
+        locationName: "Traffic Center B",
         lat: 18.601081948912995,
         lng: 73.81627137235225,
-        address: "Default Address",
+        address: "Pune Region B",
+        accidents: {
+          today: 3,
+          overall: 120
+        },
+        violations: {
+          total: 32,
+          reported: 28
+        },
+        challans: {
+          total: 65,
+          collected_amount: 13000
+        }
       },
     ];
+
+    const handleMarkerClick = (value: MapMarker) => {
+      setSelectedMarker(value);
+      setIsSidebarOpen(true);
+    };
 
     const initMap = (): void => {
       const mapElement = document.getElementById("google-map");
@@ -91,12 +135,44 @@ const Response = () => {
           icon: "/icon/work-location.png",
         });
 
-        createInfoWindow(marker, map, infoWindow, value);
+        marker.addListener("click", () => {
+          handleMarkerClick(value);
+
+          infoWindow.setContent(`
+            <div class='feh-content text-black'>
+              <h3>${value.locationName}</h3>
+              <p>${value.address}</p>
+            </div>
+          `);
+          infoWindow.open(map, marker);
+
+          map.moveCamera({
+            center: { lat: value.lat, lng: value.lng },
+            heading: 0,
+            tilt: 45,
+            zoom: 19.90,
+          });
+
+          let heading = 0;
+          const rotate = () => {
+            heading = (heading + 0.1) % 360;
+            map.moveCamera({ heading });
+            animationFrameRef.current = requestAnimationFrame(rotate);
+          };
+
+          rotate();
+
+          map.addListener("mousedown", () => {
+            if (animationFrameRef.current) {
+              cancelAnimationFrame(animationFrameRef.current);
+            }
+          });
+        });
+
         bounds.extend(new google.maps.LatLng(value.lat, value.lng));
       });
 
       map.fitBounds(bounds);
-
       initThreeJS(mapElement);
     };
 
@@ -126,47 +202,6 @@ const Response = () => {
       } else {
         handleLocationError(false, infoWindow, map.getCenter() as google.maps.LatLng);
       }
-    };
-
-    const createInfoWindow = (
-      marker: google.maps.Marker,
-      map: google.maps.Map,
-      infoWindow: google.maps.InfoWindow,
-      value: MapMarker
-    ): void => {
-      const infoWindowContent = `
-        <div class='feh-content text-black'>
-          Here we can add the Fatality Dashboard
-        </div>
-      `;
-
-      marker.addListener("click", () => {
-        infoWindow.setContent(infoWindowContent);
-        infoWindow.open(map, marker);
-
-        map.moveCamera({
-          center: { lat: value.lat, lng: value.lng },
-          heading: 0,
-          tilt: 45,
-          zoom: 19.90,
-        });
-
-        let heading = 0;
-
-        const rotate = () => {
-          heading = (heading + 0.1) % 360;
-          map.moveCamera({ heading });
-          animationFrameRef.current = requestAnimationFrame(rotate);
-        };
-
-        rotate();
-
-        map.addListener("mousedown", () => {
-          if (animationFrameRef.current) {
-            cancelAnimationFrame(animationFrameRef.current);
-          }
-        });
-      });
     };
 
     const initThreeJS = (mapElement: HTMLElement): void => {
@@ -241,6 +276,11 @@ const Response = () => {
         className="google-map flex border-2 border-black w-screen h-screen justify-center align-center"
         id="google-map"
       ></div>
+      <Sidebar 
+        isOpen={isSidebarOpen}
+        onClose={() => setIsSidebarOpen(false)}
+        markerData={selectedMarker}
+      />
     </div>
   );
 };

@@ -6,7 +6,7 @@ export async function GET(){
     await dbConnect();
     try {
         const data = await Violation.find()
-        console.log(data)
+        // console.log(data)
 
         return NextResponse.json({
             message : "Fetch Success!",
