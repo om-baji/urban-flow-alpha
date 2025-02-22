@@ -1,6 +1,17 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
+import { useQuery, gql } from "@apollo/client";
+import Sidebar from "@/components/sidebar";
+
+const GET_ADMIN_LOCATIONS = gql`
+  query Query {
+    admins {
+      lat
+      lng
+    }
+  }
+`;
 
 interface MapMarker {
   locationName: string;
@@ -53,20 +64,19 @@ const Response = () => {
   });
 
   useEffect(() => {
-    const markers: MapMarker[] = [
-      {
-        locationName: "Area",
-        lat: 18.58676425801763,
-        lng: 73.90690857301867,
-        address: "Default Address",
-      },
-      {
-        locationName: "Area",
-        lat: 18.601081948912995,
-        lng: 73.81627137235225,
-        address: "Default Address",
-      },
-    ];
+    if (!data?.admins) return;
+
+    const markers: MapMarker[] = data.admins.map((admin: { lat: number; lng: number }) => ({
+      locationName: "Admin Location",
+      lat: admin.lat,
+      lng: admin.lng,
+      address: "Admin Address"
+    }));
+
+    const handleMarkerClick = (value: MapMarker) => {
+      setSelectedMarker(value);
+      setIsSidebarOpen(true);
+    };
 
     const initMap = (): void => {
       const mapElement = document.getElementById("google-map");
