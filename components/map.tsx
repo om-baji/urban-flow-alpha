@@ -1,23 +1,24 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
-import { useQuery, gql } from "@apollo/client";
-
-const GET_ADMIN_LOCATIONS = gql`
-  query Query {
-    admins {
-      lat
-      lng
-    }
-  }
-`;
-
 
 interface MapMarker {
   locationName: string;
   lat: number;
   lng: number;
   address: string;
+  accidents?: {
+    today: number;
+    overall: number;
+  };
+  violations?: {
+    total: number;
+    reported: number;
+  };
+  challans?: {
+    total: number;
+    collected_amount: number;
+  };
 }
 
 interface MapOptions {
@@ -38,6 +39,8 @@ const Response = () => {
   const mapRef = useRef<google.maps.Map | null>(null);
   const threeRendererRef = useRef<THREE.WebGLRenderer | null>(null);
   const animationFrameRef = useRef<number>(0);
+  const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
+  const [selectedMarker, setSelectedMarker] = useState<MapMarker | null>(null);
 
   const { loading, error, data } = useQuery(GET_ADMIN_LOCATIONS, {
     fetchPolicy: 'network-only',
@@ -50,19 +53,20 @@ const Response = () => {
   });
 
   useEffect(() => {
-    if (!data?.admins) {
-      console.log('No data available yet');
-      return;
-    }
-
-    console.log('Processing data:', data);
-
-    const markers: MapMarker[] = data?.admins.map((admin: { lat: number; lng: number }) => ({
-      locationName: "Admin Location",
-      lat: admin.lat,
-      lng: admin.lng,
-      address: "Admin Address"
-    })) || [];
+    const markers: MapMarker[] = [
+      {
+        locationName: "Area",
+        lat: 18.58676425801763,
+        lng: 73.90690857301867,
+        address: "Default Address",
+      },
+      {
+        locationName: "Area",
+        lat: 18.601081948912995,
+        lng: 73.81627137235225,
+        address: "Default Address",
+      },
+    ];
 
     const initMap = (): void => {
       const mapElement = document.getElementById("google-map");
@@ -91,15 +95,6 @@ const Response = () => {
       locationButton.classList.add("custom-map-control-button");
       map.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(locationButton);
 
-      const infoWindow = new google.maps.InfoWindow({
-        minWidth: 200,
-        maxWidth: 200,
-      });
-
-      locationButton.addEventListener("click", () => {
-        handleGeolocation(map, infoWindow);
-      });
-
       const bounds = new google.maps.LatLngBounds();
 
       markers.forEach((value) => {
@@ -114,22 +109,47 @@ const Response = () => {
             }
           });
 
-          createInfoWindow(marker, map, infoWindow, value);
+          marker.addListener("click", () => {
+            handleMarkerClick(value);
+
+            map.moveCamera({
+              center: { lat: value.lat, lng: value.lng },
+              heading: 0,
+              tilt: 45,
+              zoom: 19.90,
+            });
+
+            let heading = 0;
+            const rotate = () => {
+              heading = (heading + 0.1) % 360;
+              map.moveCamera({ heading });
+              animationFrameRef.current = requestAnimationFrame(rotate);
+            };
+
+            rotate();
+
+            map.addListener("mousedown", () => {
+              if (animationFrameRef.current) {
+                cancelAnimationFrame(animationFrameRef.current);
+              }
+            });
+          });
+
           bounds.extend(new google.maps.LatLng(value.lat, value.lng));
         } catch (error) {
           console.error('Error creating marker:', error);
         }
-      }, [loading, error, data]);
+      });
 
       map.fitBounds(bounds);
-
       initThreeJS(mapElement);
+
+      locationButton.addEventListener("click", () => {
+        handleGeolocation(map);
+      });
     };
 
-    const handleGeolocation = (
-      map: google.maps.Map,
-      infoWindow: google.maps.InfoWindow
-    ): void => {
+    const handleGeolocation = (map: google.maps.Map): void => {
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
           (position) => {
@@ -137,54 +157,16 @@ const Response = () => {
               lat: position.coords.latitude,
               lng: position.coords.longitude,
             };
-
-            infoWindow.setPosition(pos);
-            infoWindow.setContent(`
-              <h1 class='text-black'>Location found.</h1>
-            `);
-            infoWindow.open(map);
             map.setCenter(pos);
+            map.setZoom(15);
           },
           () => {
-            handleLocationError(true, infoWindow, map.getCenter() as google.maps.LatLng);
+            console.error('Error: The Geolocation service failed.');
           }
         );
       } else {
-        handleLocationError(false, infoWindow, map.getCenter() as google.maps.LatLng);
+        console.error('Error: Your browser doesn\'t support geolocation.');
       }
-    };
-
-    const createInfoWindow = (
-      marker: google.maps.Marker,
-      map: google.maps.Map,
-      infoWindow: google.maps.InfoWindow,
-      value: MapMarker
-    ): void => {
-
-      marker.addListener("click", () => {
-        map.moveCamera({
-          center: { lat: value.lat, lng: value.lng },
-          heading: 0,
-          tilt: 45,
-          zoom: 19.90,
-        });
-
-        let heading = 0;
-
-        const rotate = () => {
-          heading = (heading + 0.1) % 360;
-          map.moveCamera({ heading });
-          animationFrameRef.current = requestAnimationFrame(rotate);
-        };
-
-        rotate();
-
-        map.addListener("mousedown", () => {
-          if (animationFrameRef.current) {
-            cancelAnimationFrame(animationFrameRef.current);
-          }
-        });
-      });
     };
 
     const initThreeJS = (mapElement: HTMLElement): void => {
@@ -217,22 +199,6 @@ const Response = () => {
       animate();
     };
 
-    const handleLocationError = (
-      browserHasGeolocation: boolean,
-      infoWindow: google.maps.InfoWindow,
-      pos: google.maps.LatLng | null
-    ): void => {
-      if (!pos || !mapRef.current) return;
-      
-      infoWindow.setPosition(pos);
-      infoWindow.setContent(
-        browserHasGeolocation
-          ? "Error: The Geolocation service failed."
-          : "Error: Your browser doesn't support geolocation."
-      );
-      infoWindow.open(mapRef.current);
-    };
-
     const script = document.createElement("script");
     script.src = process.env.NEXT_PUBLIC_GOOGLEMAP_URI || "";
     script.defer = true;
@@ -247,16 +213,12 @@ const Response = () => {
       if (threeRendererRef.current) {
         threeRendererRef.current.dispose();
       }
-      if (mapRef.current) {
-        // Clean up map instance if needed
-      }
     };
   }, [data]);
 
-
   if (loading) return <div>Loading map data...</div>;
   if (error) return <div>Error loading map data: {error.message}</div>;
-  if (!data?.admins) return <div>No locations found</div>;  
+  if (!data?.admins) return <div>No locations found</div>;
 
   return (
     <div className="relative w-full">
@@ -264,11 +226,15 @@ const Response = () => {
         className="google-map flex border-2 border-black w-screen h-screen justify-center align-center"
         id="google-map"
       ></div>
+      <Sidebar 
+        isOpen={isSidebarOpen}
+        onClose={() => setIsSidebarOpen(false)}
+        markerData={selectedMarker}
+      />
     </div>
   );
 };
 
-// Add global type declaration for initMap
 declare global {
   interface Window {
     initMap: () => void;
