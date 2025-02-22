@@ -1,16 +1,13 @@
 import { startServerAndCreateNextHandler } from "@as-integrations/next";
 import { ApolloServer } from "@apollo/server";
-import { mergeResolvers, mergeTypeDefs } from "@graphql-tools/merge";
-import { loadFilesSync } from "@graphql-tools/load-files";
 import dbConnect from "@/server/db";
 import { NextRequest, NextResponse } from "next/server";
+import { AdminModel } from "@/server/models/adminModel";
+import bcrypt from "bcryptjs";
 
-const resolversArray = loadFilesSync("src/graphql/**/*.resolver.js");
-const resolvers = mergeResolvers(resolversArray);
-
-const baseTypeDefs = `
+const typeDefs = `
   type Admin {
-  centerID: ID!
+  centerID: String!
   password: String!
   lat: Float!
   lng: Float!
@@ -19,16 +16,76 @@ const baseTypeDefs = `
 
 type Query {
   admins: [Admin!]
-  admin(centerID: ID!, password: String!): Admin
+  admin(centerID: String!, password: String!): Admin
 }
 
 type Mutation {
   addAdmin(centerID: ID!, password: String!, lat: Float!, lng: Float!, centerName: String!): Admin
 }
+`
+
+const resolvers = {
+  Query: {
+      admins: async () => {
+        return await AdminModel.find();
+      },
+      admin: async (_: unknown, { centerID, password }: {
+        centerID: string,
+        password: string
+      }) => {
+        try {
+          console.log('Attempting to find admin with centerID:', centerID);
+          
+          const admin = await AdminModel.findOne({ centerID });
+          if (!admin) {
+            console.error('No admin found with centerID:', centerID);
+            throw new Error(`Admin with centerID ${centerID} not found`);
+          }
   
-`;
-const typeDefsArray = loadFilesSync("src/graphql/**/*.graphql");
-const typeDefs = mergeTypeDefs([baseTypeDefs, ...typeDefsArray]);
+          console.log('Admin found, verifying password');
+          const validPassword = await bcrypt.compare(password, admin.password);
+          
+          if (!validPassword) {
+            console.error('Password verification failed for centerID:', centerID);
+            throw new Error('Invalid credentials');
+          }
+          
+          console.log('Password verified successfully');
+          return admin;
+        } catch (error) {
+          console.error('Error in admin query:', error);
+          throw error;
+        }
+      },
+    },
+    Mutation: {
+      addAdmin: async (_ : unknown, { centerID, password, lat, lng, centerName } : {
+          centerID : string,
+          password : string,
+          lat : number,
+          lng : number,
+          centerName : string
+      }) => {
+        const existingAdmin = await AdminModel.findOne({ centerID });
+        if (existingAdmin) {
+          throw new Error('AdminModel already exists');
+        }
+  
+        const hashedPassword = await bcrypt.hash(password, 10);
+        const newAdmin = new AdminModel({
+          centerID: centerID,
+          password: hashedPassword,
+          lat: lat,
+          lng: lng,
+          centerName: centerName
+        });
+        await newAdmin.save();
+        console.log(newAdmin)
+  
+        return newAdmin;
+      },
+    },
+}
 
 await dbConnect();
 

@@ -1,6 +1,17 @@
 "use client";
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
+import { useQuery, gql } from "@apollo/client";
+
+const GET_ADMIN_LOCATIONS = gql`
+  query Query {
+    admins {
+      lat
+      lng
+    }
+  }
+`;
+
 
 interface MapMarker {
   locationName: string;
@@ -28,21 +39,30 @@ const Response = () => {
   const threeRendererRef = useRef<THREE.WebGLRenderer | null>(null);
   const animationFrameRef = useRef<number>(0);
 
+  const { loading, error, data } = useQuery(GET_ADMIN_LOCATIONS, {
+    fetchPolicy: 'network-only',
+    onCompleted: (data) => {
+      console.log('GraphQL Data:', data);
+    },
+    onError: (error) => {
+      console.error('GraphQL Error:', error);
+    },
+  });
+
   useEffect(() => {
-    const markers: MapMarker[] = [
-      {
-        locationName: "Area",
-        lat: 18.58676425801763,
-        lng: 73.90690857301867,
-        address: "Default Address",
-      },
-      {
-        locationName: "Area",
-        lat: 18.601081948912995,
-        lng: 73.81627137235225,
-        address: "Default Address",
-      },
-    ];
+    if (!data?.admins) {
+      console.log('No data available yet');
+      return;
+    }
+
+    console.log('Processing data:', data);
+
+    const markers: MapMarker[] = data?.admins.map((admin: { lat: number; lng: number }) => ({
+      locationName: "Admin Location",
+      lat: admin.lat,
+      lng: admin.lng,
+      address: "Admin Address"
+    })) || [];
 
     const initMap = (): void => {
       const mapElement = document.getElementById("google-map");
@@ -83,17 +103,23 @@ const Response = () => {
       const bounds = new google.maps.LatLngBounds();
 
       markers.forEach((value) => {
-        const marker = new google.maps.Marker({
-          position: { lat: value.lat, lng: value.lng },
-          map: map,
-          draggable: false,
-          animation: google.maps.Animation.DROP,
-          icon: "/icon/work-location.png",
-        });
+        try {
+          const marker = new google.maps.Marker({
+            position: { lat: value.lat, lng: value.lng },
+            map: map,
+            draggable: false,
+            animation: google.maps.Animation.DROP,
+            icon: {
+              url: "/icon/work-location.png",
+            }
+          });
 
-        createInfoWindow(marker, map, infoWindow, value);
-        bounds.extend(new google.maps.LatLng(value.lat, value.lng));
-      });
+          createInfoWindow(marker, map, infoWindow, value);
+          bounds.extend(new google.maps.LatLng(value.lat, value.lng));
+        } catch (error) {
+          console.error('Error creating marker:', error);
+        }
+      }, [loading, error, data]);
 
       map.fitBounds(bounds);
 
@@ -134,16 +160,8 @@ const Response = () => {
       infoWindow: google.maps.InfoWindow,
       value: MapMarker
     ): void => {
-      const infoWindowContent = `
-        <div class='feh-content text-black'>
-          Here we can add the Fatality Dashboard
-        </div>
-      `;
 
       marker.addListener("click", () => {
-        infoWindow.setContent(infoWindowContent);
-        infoWindow.open(map, marker);
-
         map.moveCamera({
           center: { lat: value.lat, lng: value.lng },
           heading: 0,
@@ -233,7 +251,12 @@ const Response = () => {
         // Clean up map instance if needed
       }
     };
-  }, []);
+  }, [data]);
+
+
+  if (loading) return <div>Loading map data...</div>;
+  if (error) return <div>Error loading map data: {error.message}</div>;
+  if (!data?.admins) return <div>No locations found</div>;  
 
   return (
     <div className="relative w-full">

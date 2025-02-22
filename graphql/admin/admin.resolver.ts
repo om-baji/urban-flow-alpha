@@ -38,11 +38,11 @@ export const resolvers = {
 
       const hashedPassword = await bcrypt.hash(password, 10);
       const newAdmin = new AdminModel({
-        centerID,
+        centerID: centerID,
         password: hashedPassword,
-        lat,
-        lng,
-        centerName
+        lat: lat,
+        lng: lng,
+        centerName: centerName
       });
       await newAdmin.save();
       console.log(newAdmin)
