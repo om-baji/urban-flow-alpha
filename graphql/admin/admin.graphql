@@ -1,0 +1,16 @@
+type Admin {
+  centerID: ID!
+  password: String!
+  lat: Float!
+  lng: Float!
+  centerName: String!
+}
+
+type Query {
+  admins: [Admin!]
+  admin(centerID: ID!, password: String!): Admin
+}
+
+type Mutation {
+  addAdmin(centerID: ID!, password: String!, lat: Float!, lng: Float!, centerName: String!): Admin
+}
