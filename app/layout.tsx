@@ -10,6 +10,7 @@ import {
 import { ClerkProvider } from "@clerk/nextjs";
 import React from "react";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 const client = new ApolloClient({
   uri: "http://localhost:3000/graphql",
@@ -34,6 +35,7 @@ export default function RootLayout({ children } : {
             enableSystem
             disableTransitionOnChange
           >
+            {/* <Navbar /> */}
             {children}
           </ThemeProvider>
           </ClerkProvider>

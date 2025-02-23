@@ -1,8 +1,7 @@
 "use client";
-import { useState } from "react";
-import { motion } from "framer-motion";
-import AddAdminForm from "../admin/addAdmin/page";
 import { gql, useLazyQuery, useQuery } from "@apollo/client";
+import { motion } from "framer-motion";
+import { useState } from "react";
 
 type Center = {
     centerID: string,
@@ -96,7 +95,7 @@ export default function FormComponent() {
                             required
                         >
                             <option value="" disabled>Select Center ID</option>
-                            {centersData.admins.map((center : Center) => (
+                            {centersData.admins && centersData.admins.map((center : Center) => (
                                 <option key={center.centerID} value={center.centerID}>
                                     {center.centerID}
                                 </option>
@@ -104,7 +103,6 @@ export default function FormComponent() {
                         </select>
                     </div>
 
-                    {/* Password Field */}
                     <div>
                         <label
                             htmlFor="password"
@@ -134,7 +132,7 @@ export default function FormComponent() {
                     </div>
                 </form>
             </motion.div>
-            <AddAdminForm />
+            {/* <AddAdminForm /> */}
         </div>
     );
 }

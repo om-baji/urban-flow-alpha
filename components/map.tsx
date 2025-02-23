@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import Sidebar from "@/components/sidebar";
+import { darkModeStyle } from "./darkMapstyle";
 
 interface MapMarker {
   locationName: string;
@@ -27,6 +28,7 @@ interface MapOptions {
   center: google.maps.LatLngLiteral;
   zoom: number;
   disableDefaultUI: boolean;
+  styles?: google.maps.MapTypeStyle[];
 }
 
 const mapOptions: MapOptions = {
@@ -34,6 +36,7 @@ const mapOptions: MapOptions = {
   center: { lat: 18.517436621033905, lng: 73.8560968090087 },
   zoom: 15,
   disableDefaultUI: true,
+  styles : darkModeStyle
 };
 
 const Response = () => {
@@ -265,7 +268,7 @@ const Response = () => {
         threeRendererRef.current.dispose();
       }
       if (mapRef.current) {
-        // Clean up map instance if needed
+
       }
     };
   }, []);
@@ -279,7 +282,7 @@ const Response = () => {
       <Sidebar 
         isOpen={isSidebarOpen}
         onClose={() => setIsSidebarOpen(false)}
-        markerData={selectedMarker}
+        mapMarker={selectedMarker}
       />
     </div>
   );

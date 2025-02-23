@@ -15,6 +15,7 @@ import {
 } from 'chart.js';
 import { AlertCircle, TrendingUp, AlertTriangle, Receipt } from 'lucide-react';
 import { TrafficData } from '@/server/types';
+import useSuper from '@/server/useSuper';
 
 ChartJS.register(
   CategoryScale,
@@ -91,7 +92,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
           enforcementOfficers: item.enforcement_officers
         };
       }
-      
+
       const center = acc[item.centerId];
       center.accidents.today += item.accidents.today;
       center.accidents.overall += item.accidents.overall;
@@ -99,12 +100,12 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
       center.violations.reported += item.violations.reported;
       center.challans.total += item.challans.total;
       center.challans.collected_amount += item.challans.collected_amount;
-      
+
       return acc;
     }, {});
   }, [data]);
 
-  const zones = useMemo<string[]>(() => 
+  const zones = useMemo<string[]>(() =>
     [...new Set(data.map(item => item.location.zone))],
     [data]
   );
@@ -121,7 +122,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
 
   const filteredData = useMemo<ProcessedData>(() => {
     let filtered = processedData;
-    
+
     if (filters.zone !== 'all') {
       filtered = Object.entries(filtered).reduce((acc: ProcessedData, [centerId, data]) => {
         if (data.zone === filters.zone) {
@@ -130,7 +131,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
         return acc;
       }, {});
     }
-    
+
     if (filters.centerId !== 'all') {
       filtered = Object.entries(filtered).reduce((acc: ProcessedData, [centerId, data]) => {
         if (centerId === filters.centerId) {
@@ -139,7 +140,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
         return acc;
       }, {});
     }
-    
+
     return filtered;
   }, [processedData, filters]);
 
@@ -172,13 +173,15 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
     }
   };
 
+  const { isSuper } = useSuper();
+
   return (
     <div className="space-y-6 p-6">
       <div className="flex items-center justify-between gap-4">
         <h2 className="text-3xl font-bold tracking-tight">Traffic Management Dashboard</h2>
         <div className="flex gap-3">
-          <Select 
-            value={filters.zone} 
+          <Select
+            value={filters.zone}
             onValueChange={(zone) => setFilters(prev => ({ ...prev, zone, centerId: 'all' }))}
           >
             <SelectTrigger className="w-[180px]">
@@ -192,8 +195,8 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
             </SelectContent>
           </Select>
 
-          <Select 
-            value={filters.centerId} 
+          <Select
+            value={filters.centerId}
             onValueChange={(centerId) => setFilters(prev => ({ ...prev, centerId }))}
           >
             <SelectTrigger className="w-[180px]">
@@ -251,7 +254,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
           </CardHeader>
           <CardContent>
             <div className="h-[300px]">
-              <Line 
+              <Line
                 data={{
                   labels: Object.keys(filteredData),
                   datasets: [{
@@ -260,8 +263,8 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
                     backgroundColor: 'rgba(239, 68, 68, 0.5)',
                     borderColor: 'rgb(239, 68, 68)',
                   }]
-                }} 
-                options={chartOptions} 
+                }}
+                options={chartOptions}
               />
             </div>
           </CardContent>
@@ -277,7 +280,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
           </CardHeader>
           <CardContent>
             <div className="h-[300px]">
-              <Bar 
+              <Bar
                 data={{
                   labels: Object.keys(filteredData),
                   datasets: [{
@@ -286,8 +289,8 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
                     backgroundColor: 'rgba(59, 130, 246, 0.5)',
                     borderColor: 'rgb(59, 130, 246)',
                   }]
-                }} 
-                options={chartOptions} 
+                }}
+                options={chartOptions}
               />
             </div>
           </CardContent>
@@ -303,7 +306,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
           </CardHeader>
           <CardContent>
             <div className="h-[300px]">
-              <Line 
+              <Line
                 data={{
                   labels: Object.keys(filteredData),
                   datasets: [{
@@ -312,8 +315,8 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
                     backgroundColor: 'rgba(16, 185, 129, 0.5)',
                     borderColor: 'rgb(16, 185, 129)',
                   }]
-                }} 
-                options={chartOptions} 
+                }}
+                options={chartOptions}
               />
             </div>
           </CardContent>

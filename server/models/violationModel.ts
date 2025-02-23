@@ -97,4 +97,4 @@ const trafficSchema = new mongoose.Schema({
 
 trafficSchema.index({ 'location.coordinates': '2dsphere' });
 
-export const Violation = mongoose.models.violations || mongoose.model('Violation', trafficSchema);
+export const Violation = mongoose.models.Violation || mongoose.model('Violation', trafficSchema);

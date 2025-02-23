@@ -3,7 +3,6 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import Link from 'next/link'
 
 const Sudo = () => {
 
@@ -32,7 +31,6 @@ const Sudo = () => {
             Validate
         </Button>
         </div>
-        <p className='text-muted text-white'>Don't have one? <Link href="/signin" >Login</Link></p>
     </div>
   )
 }
