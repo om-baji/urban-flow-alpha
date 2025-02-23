@@ -15,6 +15,11 @@ import Navbar from "@/components/Navbar";
 const client = new ApolloClient({
   uri: "http://localhost:3000/graphql",
   cache: new InMemoryCache(),
+  defaultOptions: {
+    query: {
+      fetchPolicy: 'network-only', // This ensures fresh data
+    },
+  },
 });
 
 export default function RootLayout({ children } : {

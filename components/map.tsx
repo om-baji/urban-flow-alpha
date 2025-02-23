@@ -1,8 +1,18 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
+import { useQuery, gql } from "@apollo/client";
 import Sidebar from "@/components/sidebar";
 import { darkModeStyle } from "./darkMapstyle";
+
+const GET_ADMIN_LOCATIONS = gql`
+  query Query {
+    admins {
+      lat
+      lng
+    }
+  }
+`;
 
 interface MapMarker {
   locationName: string;
@@ -46,45 +56,25 @@ const Response = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
   const [selectedMarker, setSelectedMarker] = useState<MapMarker | null>(null);
 
+  const { loading, error, data } = useQuery(GET_ADMIN_LOCATIONS, {
+    fetchPolicy: 'network-only',
+    onCompleted: (data) => {
+      console.log('GraphQL Data:', data);
+    },
+    onError: (error) => {
+      console.error('GraphQL Error:', error);
+    },
+  });
+
   useEffect(() => {
-    const markers: MapMarker[] = [
-      {
-        locationName: "Traffic Center A",
-        lat: 18.58676425801763,
-        lng: 73.90690857301867,
-        address: "Pune Region A",
-        accidents: {
-          today: 5,
-          overall: 150
-        },
-        violations: {
-          total: 45,
-          reported: 38
-        },
-        challans: {
-          total: 78,
-          collected_amount: 15600
-        }
-      },
-      {
-        locationName: "Traffic Center B",
-        lat: 18.601081948912995,
-        lng: 73.81627137235225,
-        address: "Pune Region B",
-        accidents: {
-          today: 3,
-          overall: 120
-        },
-        violations: {
-          total: 32,
-          reported: 28
-        },
-        challans: {
-          total: 65,
-          collected_amount: 13000
-        }
-      },
-    ];
+    if (!data?.admins) return;
+
+    const markers: MapMarker[] = data.admins.map((admin: { lat: number; lng: number }) => ({
+      locationName: "Admin Location",
+      lat: admin.lat,
+      lng: admin.lng,
+      address: "Admin Address"
+    }));
 
     const handleMarkerClick = (value: MapMarker) => {
       setSelectedMarker(value);
@@ -118,71 +108,61 @@ const Response = () => {
       locationButton.classList.add("custom-map-control-button");
       map.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(locationButton);
 
-      const infoWindow = new google.maps.InfoWindow({
-        minWidth: 200,
-        maxWidth: 200,
-      });
-
-      locationButton.addEventListener("click", () => {
-        handleGeolocation(map, infoWindow);
-      });
-
       const bounds = new google.maps.LatLngBounds();
 
       markers.forEach((value) => {
-        const marker = new google.maps.Marker({
-          position: { lat: value.lat, lng: value.lng },
-          map: map,
-          draggable: false,
-          animation: google.maps.Animation.DROP,
-          icon: "/icon/work-location.png",
-        });
-
-        marker.addListener("click", () => {
-          handleMarkerClick(value);
-
-          infoWindow.setContent(`
-            <div class='feh-content text-black'>
-              <h3>${value.locationName}</h3>
-              <p>${value.address}</p>
-            </div>
-          `);
-          infoWindow.open(map, marker);
-
-          map.moveCamera({
-            center: { lat: value.lat, lng: value.lng },
-            heading: 0,
-            tilt: 45,
-            zoom: 19.90,
-          });
-
-          let heading = 0;
-          const rotate = () => {
-            heading = (heading + 0.1) % 360;
-            map.moveCamera({ heading });
-            animationFrameRef.current = requestAnimationFrame(rotate);
-          };
-
-          rotate();
-
-          map.addListener("mousedown", () => {
-            if (animationFrameRef.current) {
-              cancelAnimationFrame(animationFrameRef.current);
+        try {
+          const marker = new google.maps.Marker({
+            position: { lat: value.lat, lng: value.lng },
+            map: map,
+            draggable: false,
+            animation: google.maps.Animation.DROP,
+            icon: {
+              url: "/icon/work-location.png",
             }
           });
-        });
 
-        bounds.extend(new google.maps.LatLng(value.lat, value.lng));
+          marker.addListener("click", () => {
+            handleMarkerClick(value);
+
+            map.moveCamera({
+              center: { lat: value.lat, lng: value.lng },
+              heading: 0,
+              tilt: 45,
+              zoom: 19.90,
+            });
+
+            let heading = 0;
+            const rotate = () => {
+              heading = (heading + 0.1) % 360;
+              map.moveCamera({ heading });
+              animationFrameRef.current = requestAnimationFrame(rotate);
+            };
+
+            rotate();
+
+            map.addListener("mousedown", () => {
+              if (animationFrameRef.current) {
+                cancelAnimationFrame(animationFrameRef.current);
+              }
+            });
+          });
+
+          bounds.extend(new google.maps.LatLng(value.lat, value.lng));
+        } catch (error) {
+          console.error('Error creating marker:', error);
+        }
       });
 
       map.fitBounds(bounds);
       initThreeJS(mapElement);
+
+      locationButton.addEventListener("click", () => {
+        handleGeolocation(map);
+      });
     };
 
-    const handleGeolocation = (
-      map: google.maps.Map,
-      infoWindow: google.maps.InfoWindow
-    ): void => {
+    const handleGeolocation = (map: google.maps.Map): void => {
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
           (position) => {
@@ -190,20 +170,15 @@ const Response = () => {
               lat: position.coords.latitude,
               lng: position.coords.longitude,
             };
-
-            infoWindow.setPosition(pos);
-            infoWindow.setContent(`
-              <h1 class='text-black'>Location found.</h1>
-            `);
-            infoWindow.open(map);
             map.setCenter(pos);
+            map.setZoom(15);
           },
           () => {
-            handleLocationError(true, infoWindow, map.getCenter() as google.maps.LatLng);
+            console.error('Error: The Geolocation service failed.');
           }
         );
       } else {
-        handleLocationError(false, infoWindow, map.getCenter() as google.maps.LatLng);
+        console.error('Error: Your browser doesn\'t support geolocation.');
       }
     };
 
@@ -237,22 +212,6 @@ const Response = () => {
       animate();
     };
 
-    const handleLocationError = (
-      browserHasGeolocation: boolean,
-      infoWindow: google.maps.InfoWindow,
-      pos: google.maps.LatLng | null
-    ): void => {
-      if (!pos || !mapRef.current) return;
-      
-      infoWindow.setPosition(pos);
-      infoWindow.setContent(
-        browserHasGeolocation
-          ? "Error: The Geolocation service failed."
-          : "Error: Your browser doesn't support geolocation."
-      );
-      infoWindow.open(mapRef.current);
-    };
-
     const script = document.createElement("script");
     script.src = process.env.NEXT_PUBLIC_GOOGLEMAP_URI || "";
     script.defer = true;
@@ -267,11 +226,12 @@ const Response = () => {
       if (threeRendererRef.current) {
         threeRendererRef.current.dispose();
       }
-      if (mapRef.current) {
-
-      }
     };
-  }, []);
+  }, [data]);
+
+  if (loading) return <div>Loading map data...</div>;
+  if (error) return <div>Error loading map data: {error.message}</div>;
+  if (!data?.admins) return <div>No locations found</div>;
 
   return (
     <div className="relative w-full">
@@ -288,7 +248,6 @@ const Response = () => {
   );
 };
 
-// Add global type declaration for initMap
 declare global {
   interface Window {
     initMap: () => void;
