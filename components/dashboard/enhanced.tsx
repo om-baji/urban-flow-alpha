@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState, useCallback } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Bar, Line } from 'react-chartjs-2';
@@ -27,6 +27,7 @@ ChartJS.register(
   PointElement,
   LineElement
 );
+ 
 
 interface CenterData {
   accidents: { today: number; overall: number };
@@ -57,7 +58,31 @@ interface DashboardProps {
   data: TrafficData[];
 }
 
-const StatCard: React.FC<StatCardProps> = ({ title, value, icon: Icon, description, trend }) => (
+interface ChartComponentProps {
+  filteredData: ProcessedData;
+  filters: FilterState;
+}
+
+const chartOptions = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: {
+    tooltip: {
+      intersect: false,
+      mode: 'index' as const
+    },
+    legend: {
+      position: 'top' as const
+    }
+  },
+  scales: {
+    y: {
+      beginAtZero: true
+    }
+  }
+};
+
+const StatCard: React.FC<StatCardProps> = React.memo(({ title, value, icon: Icon, description, trend }) => (
   <Card>
     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
       <CardTitle className="text-sm font-medium">{title}</CardTitle>
@@ -73,7 +98,91 @@ const StatCard: React.FC<StatCardProps> = ({ title, value, icon: Icon, descripti
       )}
     </CardContent>
   </Card>
-);
+));
+
+const AccidentsChart: React.FC<ChartComponentProps> = React.memo(({ filteredData, filters }) => (
+  <Card>
+    <CardHeader>
+      <CardTitle>Accidents by Center</CardTitle>
+      <CardDescription>
+        {filters.zone === 'all' ? 'All zones' : `${filters.zone} zone`}
+        {filters.centerId !== 'all' && ` - Center ${filters.centerId}`}
+      </CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="h-[300px]">
+        <Line
+          data={{
+            labels: Object.keys(filteredData),
+            datasets: [{
+              label: 'Total Accidents',
+              data: Object.values(filteredData).map(center => center.accidents.overall),
+              backgroundColor: 'rgba(239, 68, 68, 0.5)',
+              borderColor: 'rgb(239, 68, 68)',
+            }]
+          }}
+          options={chartOptions}
+        />
+      </div>
+    </CardContent>
+  </Card>
+));
+
+const ViolationsChart: React.FC<ChartComponentProps> = React.memo(({ filteredData, filters }) => (
+  <Card>
+    <CardHeader>
+      <CardTitle>Violations by Center</CardTitle>
+      <CardDescription>
+        {filters.zone === 'all' ? 'All zones' : `${filters.zone} zone`}
+        {filters.centerId !== 'all' && ` - Center ${filters.centerId}`}
+      </CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="h-[300px]">
+        <Bar
+          data={{
+            labels: Object.keys(filteredData),
+            datasets: [{
+              label: 'Violations',
+              data: Object.values(filteredData).map(center => center.violations.total),
+              backgroundColor: 'rgba(59, 130, 246, 0.5)',
+              borderColor: 'rgb(59, 130, 246)',
+            }]
+          }}
+          options={chartOptions}
+        />
+      </div>
+    </CardContent>
+  </Card>
+));
+
+const RevenueChart: React.FC<ChartComponentProps> = React.memo(({ filteredData, filters }) => (
+  <Card>
+    <CardHeader>
+      <CardTitle>Revenue by Center</CardTitle>
+      <CardDescription>
+        {filters.zone === 'all' ? 'All zones' : `${filters.zone} zone`}
+        {filters.centerId !== 'all' && ` - Center ${filters.centerId}`}
+      </CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="h-[300px]">
+        <Line
+          data={{
+            labels: Object.keys(filteredData),
+            datasets: [{
+              label: 'Revenue (₹)',
+              data: Object.values(filteredData).map(center => center.challans.collected_amount),
+              backgroundColor: 'rgba(16, 185, 129, 0.5)',
+              borderColor: 'rgb(16, 185, 129)',
+            }]
+          }}
+          options={chartOptions}
+        />
+      </div>
+    </CardContent>
+  </Card>
+));
 
 const Dashboard: React.FC<DashboardProps> = ({ data }) => {
   const [filters, setFilters] = useState<FilterState>({
@@ -81,7 +190,15 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
     centerId: 'all'
   });
 
-  const processedData = useMemo<ProcessedData>(() => {
+  const handleZoneChange = useCallback((value: string) => {
+    setFilters(prev => ({ ...prev, zone: value, centerId: 'all' }));
+  }, []);
+
+  const handleCenterChange = useCallback((value: string) => {
+    setFilters(prev => ({ ...prev, centerId: value }));
+  }, []);
+
+  const processedData = useMemo(() => {
     return data.reduce((acc: ProcessedData, item: TrafficData) => {
       if (!acc[item.centerId]) {
         acc[item.centerId] = {
@@ -105,12 +222,12 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
     }, {});
   }, [data]);
 
-  const zones = useMemo<string[]>(() =>
+  const zones = useMemo(() => 
     [...new Set(data.map(item => item.location.zone))],
     [data]
   );
 
-  const centerIds = useMemo<string[]>(() => {
+  const centerIds = useMemo(() => {
     const centers = Object.entries(processedData);
     if (filters.zone === 'all') {
       return centers.map(([id]) => id);
@@ -120,7 +237,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
       .map(([id]) => id);
   }, [processedData, filters.zone]);
 
-  const filteredData = useMemo<ProcessedData>(() => {
+  const filteredData = useMemo(() => {
     let filtered = processedData;
 
     if (filters.zone !== 'all') {
@@ -154,27 +271,6 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
     };
   }, [filteredData]);
 
-  const chartOptions = {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      tooltip: {
-        intersect: false,
-        mode: 'index' as const
-      },
-      legend: {
-        position: 'top' as const
-      }
-    },
-    scales: {
-      y: {
-        beginAtZero: true
-      }
-    }
-  };
-
-  const { isSuper } = useSuper();
-
   return (
     <div className="space-y-6 p-6">
       <div className="flex items-center justify-between gap-4">
@@ -182,7 +278,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
         <div className="flex gap-3">
           <Select
             value={filters.zone}
-            onValueChange={(zone) => setFilters(prev => ({ ...prev, zone, centerId: 'all' }))}
+            onValueChange={handleZoneChange}
           >
             <SelectTrigger className="w-[180px]">
               <SelectValue placeholder="Select zone" />
@@ -197,7 +293,7 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
 
           <Select
             value={filters.centerId}
-            onValueChange={(centerId) => setFilters(prev => ({ ...prev, centerId }))}
+            onValueChange={handleCenterChange}
           >
             <SelectTrigger className="w-[180px]">
               <SelectValue placeholder="Select center" />
@@ -244,83 +340,9 @@ const Dashboard: React.FC<DashboardProps> = ({ data }) => {
       </div>
 
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <Card>
-          <CardHeader>
-            <CardTitle>Accidents by Center</CardTitle>
-            <CardDescription>
-              {filters.zone === 'all' ? 'All zones' : `${filters.zone} zone`}
-              {filters.centerId !== 'all' && ` - Center ${filters.centerId}`}
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="h-[300px]">
-              <Line
-                data={{
-                  labels: Object.keys(filteredData),
-                  datasets: [{
-                    label: 'Total Accidents',
-                    data: Object.values(filteredData).map(center => center.accidents.overall),
-                    backgroundColor: 'rgba(239, 68, 68, 0.5)',
-                    borderColor: 'rgb(239, 68, 68)',
-                  }]
-                }}
-                options={chartOptions}
-              />
-            </div>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>Violations by Center</CardTitle>
-            <CardDescription>
-              {filters.zone === 'all' ? 'All zones' : `${filters.zone} zone`}
-              {filters.centerId !== 'all' && ` - Center ${filters.centerId}`}
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="h-[300px]">
-              <Bar
-                data={{
-                  labels: Object.keys(filteredData),
-                  datasets: [{
-                    label: 'Violations',
-                    data: Object.values(filteredData).map(center => center.violations.total),
-                    backgroundColor: 'rgba(59, 130, 246, 0.5)',
-                    borderColor: 'rgb(59, 130, 246)',
-                  }]
-                }}
-                options={chartOptions}
-              />
-            </div>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>Revenue by Center</CardTitle>
-            <CardDescription>
-              {filters.zone === 'all' ? 'All zones' : `${filters.zone} zone`}
-              {filters.centerId !== 'all' && ` - Center ${filters.centerId}`}
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="h-[300px]">
-              <Line
-                data={{
-                  labels: Object.keys(filteredData),
-                  datasets: [{
-                    label: 'Revenue (₹)',
-                    data: Object.values(filteredData).map(center => center.challans.collected_amount),
-                    backgroundColor: 'rgba(16, 185, 129, 0.5)',
-                    borderColor: 'rgb(16, 185, 129)',
-                  }]
-                }}
-                options={chartOptions}
-              />
-            </div>
-          </CardContent>
-        </Card>
+        <AccidentsChart filteredData={filteredData} filters={filters} />
+        <ViolationsChart filteredData={filteredData} filters={filters} />
+        <RevenueChart filteredData={filteredData} filters={filters} />
       </div>
     </div>
   );

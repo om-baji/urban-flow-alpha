@@ -1,0 +1,7560 @@
+[{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925e9"
+  },
+  "centerId": "UTYC-636",
+  "date": {
+    "$date": "2024-09-11T06:23:42.162Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.05398,
+        11.55231
+      ]
+    },
+    "latitude": 11.55231,
+    "longitude": 77.05398
+  },
+  "violations": {
+    "total": 157,
+    "reported": 110
+  },
+  "challans": {
+    "total": 110,
+    "breakdown": {
+      "Speeding": 12,
+      "Red Light": 19,
+      "No Helmet": 8,
+      "Drunk Driving": 2,
+      "Wrong Way Driving": 16,
+      "No License": 2,
+      "Invalid Insurance": 8,
+      "Illegal Parking": 13,
+      "Lane Violation": 13,
+      "Modified Vehicle": 17
+    },
+    "collected_amount": 163104.87
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 890
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 35
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925ea"
+  },
+  "centerId": "ARGM-282",
+  "date": {
+    "$date": "2025-01-02T08:52:23.745Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.830328,
+        24.637084
+      ]
+    },
+    "latitude": 24.637084,
+    "longitude": 78.830328
+  },
+  "violations": {
+    "total": 145,
+    "reported": 94
+  },
+  "challans": {
+    "total": 96,
+    "breakdown": {
+      "Speeding": 17,
+      "Red Light": 6,
+      "No License": 12,
+      "Phone While Driving": 1,
+      "Illegal Parking": 15,
+      "No Registration": 21,
+      "Modified Vehicle": 3,
+      "Noise Pollution": 21
+    },
+    "collected_amount": 197235.57
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 324
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 83
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925eb"
+  },
+  "centerId": "JCRE-411",
+  "date": {
+    "$date": "2024-09-10T12:16:17.090Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.452482,
+        19.513574
+      ]
+    },
+    "latitude": 19.513574,
+    "longitude": 73.452482
+  },
+  "violations": {
+    "total": 154,
+    "reported": 133
+  },
+  "challans": {
+    "total": 136,
+    "breakdown": {
+      "Red Light": 10,
+      "Drunk Driving": 25,
+      "Invalid Insurance": 21,
+      "Phone While Driving": 25,
+      "Illegal Parking": 5,
+      "Lane Violation": 23,
+      "Overloading": 3,
+      "No Registration": 3,
+      "Modified Vehicle": 21
+    },
+    "collected_amount": 73855.29
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 409
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 99
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925ec"
+  },
+  "centerId": "UOPT-735",
+  "date": {
+    "$date": "2024-10-07T16:39:37.631Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.934269,
+        30.2672
+      ]
+    },
+    "latitude": 30.2672,
+    "longitude": 76.934269
+  },
+  "violations": {
+    "total": 202,
+    "reported": 169
+  },
+  "challans": {
+    "total": 170,
+    "breakdown": {
+      "Speeding": 25,
+      "No Helmet": 18,
+      "No Seatbelt": 16,
+      "Wrong Way Driving": 23,
+      "No License": 19,
+      "Invalid Insurance": 22,
+      "Illegal Parking": 9,
+      "Lane Violation": 10,
+      "Modified Vehicle": 7,
+      "Noise Pollution": 21
+    },
+    "collected_amount": 159368.54
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 784
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 77
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925ed"
+  },
+  "centerId": "KXGW-472",
+  "date": {
+    "$date": "2025-02-20T11:46:26.588Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.275046,
+        23.505097
+      ]
+    },
+    "latitude": 23.505097,
+    "longitude": 88.275046
+  },
+  "violations": {
+    "total": 159,
+    "reported": 133
+  },
+  "challans": {
+    "total": 140,
+    "breakdown": {
+      "Speeding": 23,
+      "No Helmet": 24,
+      "Drunk Driving": 15,
+      "No License": 5,
+      "Invalid Insurance": 5,
+      "Phone While Driving": 11,
+      "Illegal Parking": 16,
+      "Lane Violation": 16,
+      "No Registration": 21,
+      "Modified Vehicle": 3,
+      "Noise Pollution": 1
+    },
+    "collected_amount": 54896.84
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 503
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 53
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925ee"
+  },
+  "centerId": "APTN-953",
+  "date": {
+    "$date": "2024-09-17T14:14:46.335Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.887807,
+        23.686912
+      ]
+    },
+    "latitude": 23.686912,
+    "longitude": 77.887807
+  },
+  "violations": {
+    "total": 154,
+    "reported": 146
+  },
+  "challans": {
+    "total": 146,
+    "breakdown": {
+      "Speeding": 10,
+      "No Seatbelt": 13,
+      "Drunk Driving": 20,
+      "Wrong Way Driving": 0,
+      "Invalid Insurance": 18,
+      "Phone While Driving": 17,
+      "Illegal Parking": 10,
+      "Lane Violation": 22,
+      "Overloading": 5,
+      "No Registration": 9,
+      "Noise Pollution": 22
+    },
+    "collected_amount": 89148.37
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 986
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 65
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925ef"
+  },
+  "centerId": "RNQW-468",
+  "date": {
+    "$date": "2024-10-28T13:08:01.393Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.059155,
+        23.417124
+      ]
+    },
+    "latitude": 23.417124,
+    "longitude": 88.059155
+  },
+  "violations": {
+    "total": 136,
+    "reported": 100
+  },
+  "challans": {
+    "total": 102,
+    "breakdown": {
+      "No Helmet": 13,
+      "No License": 22,
+      "Phone While Driving": 2,
+      "Illegal Parking": 20,
+      "Overloading": 25,
+      "No Registration": 8,
+      "Modified Vehicle": 12
+    },
+    "collected_amount": 93128.21
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 629
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 97
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925f0"
+  },
+  "centerId": "BTXK-830",
+  "date": {
+    "$date": "2024-11-16T06:20:23.966Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.937694,
+        12.848645
+      ]
+    },
+    "latitude": 12.848645,
+    "longitude": 78.937694
+  },
+  "violations": {
+    "total": 106,
+    "reported": 84
+  },
+  "challans": {
+    "total": 88,
+    "breakdown": {
+      "No Seatbelt": 1,
+      "Wrong Way Driving": 2,
+      "No License": 7,
+      "Phone While Driving": 23,
+      "Illegal Parking": 11,
+      "Lane Violation": 4,
+      "Overloading": 2,
+      "Modified Vehicle": 13,
+      "Noise Pollution": 25
+    },
+    "collected_amount": 81884.53
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 673
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 47
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925f1"
+  },
+  "centerId": "GZJD-696",
+  "date": {
+    "$date": "2024-08-28T14:28:15.258Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.480121,
+        22.163249
+      ]
+    },
+    "latitude": 22.163249,
+    "longitude": 88.480121
+  },
+  "violations": {
+    "total": 172,
+    "reported": 135
+  },
+  "challans": {
+    "total": 138,
+    "breakdown": {
+      "No Helmet": 17,
+      "No Seatbelt": 6,
+      "Drunk Driving": 25,
+      "No License": 24,
+      "Invalid Insurance": 8,
+      "Phone While Driving": 17,
+      "Lane Violation": 11,
+      "Overloading": 8,
+      "No Registration": 20,
+      "Modified Vehicle": 2
+    },
+    "collected_amount": 186393.21
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 955
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 34
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925f2"
+  },
+  "centerId": "HBGY-224",
+  "date": {
+    "$date": "2024-12-06T16:35:09.227Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.756435,
+        20.339216
+      ]
+    },
+    "latitude": 20.339216,
+    "longitude": 72.756435
+  },
+  "violations": {
+    "total": 134,
+    "reported": 128
+  },
+  "challans": {
+    "total": 134,
+    "breakdown": {
+      "Speeding": 22,
+      "Red Light": 11,
+      "Drunk Driving": 15,
+      "Wrong Way Driving": 23,
+      "No License": 11,
+      "Illegal Parking": 0,
+      "Lane Violation": 7,
+      "Overloading": 23,
+      "Noise Pollution": 22
+    },
+    "collected_amount": 134097.3
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 508
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 57
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925f3"
+  },
+  "centerId": "ERBA-459",
+  "date": {
+    "$date": "2024-11-24T12:39:59.765Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.431185,
+        19.135737
+      ]
+    },
+    "latitude": 19.135737,
+    "longitude": 73.431185
+  },
+  "violations": {
+    "total": 187,
+    "reported": 171
+  },
+  "challans": {
+    "total": 176,
+    "breakdown": {
+      "Speeding": 1,
+      "Red Light": 4,
+      "No Helmet": 23,
+      "Drunk Driving": 20,
+      "Wrong Way Driving": 21,
+      "No License": 14,
+      "Invalid Insurance": 13,
+      "Phone While Driving": 9,
+      "Illegal Parking": 18,
+      "Lane Violation": 10,
+      "Overloading": 15,
+      "Modified Vehicle": 3,
+      "Noise Pollution": 25
+    },
+    "collected_amount": 117052.28
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 860
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 39
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925f4"
+  },
+  "centerId": "ULBO-724",
+  "date": {
+    "$date": "2025-01-13T01:57:35.414Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.964053,
+        13.4149
+      ]
+    },
+    "latitude": 13.4149,
+    "longitude": 77.964053
+  },
+  "violations": {
+    "total": 181,
+    "reported": 145
+  },
+  "challans": {
+    "total": 153,
+    "breakdown": {
+      "Speeding": 24,
+      "Red Light": 9,
+      "No Helmet": 3,
+      "No Seatbelt": 25,
+      "Drunk Driving": 2,
+      "Wrong Way Driving": 18,
+      "Invalid Insurance": 8,
+      "Illegal Parking": 2,
+      "Lane Violation": 18,
+      "Overloading": 16,
+      "No Registration": 8,
+      "Noise Pollution": 20
+    },
+    "collected_amount": 57862.34
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 343
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 44
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925f5"
+  },
+  "centerId": "EUKL-131",
+  "date": {
+    "$date": "2025-02-17T16:03:28.883Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.56489,
+        19.171664
+      ]
+    },
+    "latitude": 19.171664,
+    "longitude": 72.56489
+  },
+  "violations": {
+    "total": 161,
+    "reported": 139
+  },
+  "challans": {
+    "total": 146,
+    "breakdown": {
+      "Red Light": 20,
+      "No Helmet": 12,
+      "No Seatbelt": 20,
+      "Drunk Driving": 0,
+      "Wrong Way Driving": 1,
+      "No License": 12,
+      "Phone While Driving": 24,
+      "Illegal Parking": 13,
+      "Overloading": 17,
+      "No Registration": 21,
+      "Modified Vehicle": 6
+    },
+    "collected_amount": 182468.22
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 372
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 39
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925f6"
+  },
+  "centerId": "LBJD-428",
+  "date": {
+    "$date": "2025-01-06T03:08:30.613Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        75.793338,
+        30.558701
+      ]
+    },
+    "latitude": 30.558701,
+    "longitude": 75.793338
+  },
+  "violations": {
+    "total": 147,
+    "reported": 109
+  },
+  "challans": {
+    "total": 113,
+    "breakdown": {
+      "Speeding": 14,
+      "Red Light": 2,
+      "No Helmet": 10,
+      "Drunk Driving": 7,
+      "Wrong Way Driving": 23,
+      "No License": 10,
+      "Illegal Parking": 22,
+      "Overloading": 22,
+      "No Registration": 2,
+      "Noise Pollution": 1
+    },
+    "collected_amount": 100569.18
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 848
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 23
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925f7"
+  },
+  "centerId": "ANJT-430",
+  "date": {
+    "$date": "2025-01-28T14:45:55.388Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.642927,
+        20.993297
+      ]
+    },
+    "latitude": 20.993297,
+    "longitude": 73.642927
+  },
+  "violations": {
+    "total": 145,
+    "reported": 106
+  },
+  "challans": {
+    "total": 112,
+    "breakdown": {
+      "Speeding": 25,
+      "Red Light": 2,
+      "No Seatbelt": 20,
+      "Drunk Driving": 14,
+      "Wrong Way Driving": 16,
+      "Invalid Insurance": 17,
+      "Phone While Driving": 1,
+      "Lane Violation": 6,
+      "Overloading": 9,
+      "No Registration": 2
+    },
+    "collected_amount": 106473.76
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 530
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 51
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925f8"
+  },
+  "centerId": "GSMV-474",
+  "date": {
+    "$date": "2024-11-10T03:13:26.931Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.037043,
+        12.869369
+      ]
+    },
+    "latitude": 12.869369,
+    "longitude": 77.037043
+  },
+  "violations": {
+    "total": 239,
+    "reported": 220
+  },
+  "challans": {
+    "total": 220,
+    "breakdown": {
+      "Speeding": 21,
+      "Red Light": 25,
+      "No Helmet": 23,
+      "No Seatbelt": 23,
+      "Drunk Driving": 22,
+      "Wrong Way Driving": 18,
+      "No License": 0,
+      "Invalid Insurance": 24,
+      "Phone While Driving": 16,
+      "Illegal Parking": 6,
+      "Overloading": 20,
+      "Modified Vehicle": 15,
+      "Noise Pollution": 7
+    },
+    "collected_amount": 132842.69
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 973
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 53
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925f9"
+  },
+  "centerId": "PCSA-299",
+  "date": {
+    "$date": "2024-09-13T19:51:22.684Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.527692,
+        24.021652
+      ]
+    },
+    "latitude": 24.021652,
+    "longitude": 77.527692
+  },
+  "violations": {
+    "total": 153,
+    "reported": 115
+  },
+  "challans": {
+    "total": 120,
+    "breakdown": {
+      "Speeding": 3,
+      "Red Light": 6,
+      "No Helmet": 17,
+      "No Seatbelt": 3,
+      "Wrong Way Driving": 18,
+      "Invalid Insurance": 11,
+      "Phone While Driving": 9,
+      "Illegal Parking": 6,
+      "No Registration": 18,
+      "Modified Vehicle": 15,
+      "Noise Pollution": 14
+    },
+    "collected_amount": 126450.44
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 481
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 40
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925fa"
+  },
+  "centerId": "PTLZ-505",
+  "date": {
+    "$date": "2025-02-03T10:37:59.094Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.303469,
+        11.842101
+      ]
+    },
+    "latitude": 11.842101,
+    "longitude": 77.303469
+  },
+  "violations": {
+    "total": 199,
+    "reported": 197
+  },
+  "challans": {
+    "total": 198,
+    "breakdown": {
+      "Speeding": 2,
+      "Red Light": 21,
+      "No Helmet": 4,
+      "No Seatbelt": 14,
+      "Drunk Driving": 22,
+      "No License": 22,
+      "Illegal Parking": 19,
+      "Lane Violation": 11,
+      "Overloading": 13,
+      "No Registration": 21,
+      "Modified Vehicle": 24,
+      "Noise Pollution": 25
+    },
+    "collected_amount": 112434.08
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 647
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 99
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925fb"
+  },
+  "centerId": "FGMG-636",
+  "date": {
+    "$date": "2025-01-11T11:19:17.640Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.719041,
+        29.831781
+      ]
+    },
+    "latitude": 29.831781,
+    "longitude": 77.719041
+  },
+  "violations": {
+    "total": 186,
+    "reported": 133
+  },
+  "challans": {
+    "total": 139,
+    "breakdown": {
+      "Red Light": 3,
+      "No Helmet": 10,
+      "No Seatbelt": 9,
+      "Drunk Driving": 7,
+      "No License": 11,
+      "Invalid Insurance": 25,
+      "Phone While Driving": 15,
+      "Illegal Parking": 8,
+      "Lane Violation": 13,
+      "No Registration": 22,
+      "Modified Vehicle": 13,
+      "Noise Pollution": 3
+    },
+    "collected_amount": 64617.12
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 498
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 31
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925fc"
+  },
+  "centerId": "MISJ-797",
+  "date": {
+    "$date": "2025-02-02T10:42:21.290Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.016023,
+        23.039359
+      ]
+    },
+    "latitude": 23.039359,
+    "longitude": 88.016023
+  },
+  "violations": {
+    "total": 129,
+    "reported": 126
+  },
+  "challans": {
+    "total": 129,
+    "breakdown": {
+      "Speeding": 7,
+      "Red Light": 1,
+      "No Helmet": 23,
+      "No Seatbelt": 23,
+      "Drunk Driving": 18,
+      "No License": 8,
+      "Phone While Driving": 0,
+      "Lane Violation": 13,
+      "No Registration": 20,
+      "Noise Pollution": 16
+    },
+    "collected_amount": 81929.15
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 577
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 78
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925fd"
+  },
+  "centerId": "LJUW-999",
+  "date": {
+    "$date": "2024-11-24T20:53:00.975Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.727148,
+        19.525687
+      ]
+    },
+    "latitude": 19.525687,
+    "longitude": 73.727148
+  },
+  "violations": {
+    "total": 120,
+    "reported": 73
+  },
+  "challans": {
+    "total": 83,
+    "breakdown": {
+      "No Helmet": 13,
+      "No Seatbelt": 0,
+      "Drunk Driving": 19,
+      "Wrong Way Driving": 2,
+      "Phone While Driving": 7,
+      "Illegal Parking": 23,
+      "Lane Violation": 6,
+      "No Registration": 13
+    },
+    "collected_amount": 105898.79
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 309
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 98
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925fe"
+  },
+  "centerId": "DUZT-789",
+  "date": {
+    "$date": "2025-01-01T15:51:59.306Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        75.67899,
+        28.601766
+      ]
+    },
+    "latitude": 28.601766,
+    "longitude": 75.67899
+  },
+  "violations": {
+    "total": 122,
+    "reported": 102
+  },
+  "challans": {
+    "total": 111,
+    "breakdown": {
+      "Speeding": 20,
+      "Red Light": 14,
+      "No Helmet": 2,
+      "Wrong Way Driving": 21,
+      "No License": 20,
+      "Invalid Insurance": 0,
+      "Overloading": 21,
+      "No Registration": 7,
+      "Noise Pollution": 6
+    },
+    "collected_amount": 122407.54
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 366
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 27
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c1925ff"
+  },
+  "centerId": "FVOT-932",
+  "date": {
+    "$date": "2024-11-04T13:16:20.580Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.126087,
+        13.328504
+      ]
+    },
+    "latitude": 13.328504,
+    "longitude": 76.126087
+  },
+  "violations": {
+    "total": 169,
+    "reported": 133
+  },
+  "challans": {
+    "total": 139,
+    "breakdown": {
+      "Speeding": 12,
+      "Red Light": 11,
+      "No Helmet": 2,
+      "No Seatbelt": 12,
+      "Drunk Driving": 22,
+      "Wrong Way Driving": 9,
+      "No License": 6,
+      "Phone While Driving": 21,
+      "No Registration": 25,
+      "Modified Vehicle": 2,
+      "Noise Pollution": 17
+    },
+    "collected_amount": 141200.94
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 725
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 28
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192600"
+  },
+  "centerId": "WBMW-925",
+  "date": {
+    "$date": "2024-10-04T05:31:50.699Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.032898,
+        12.926728
+      ]
+    },
+    "latitude": 12.926728,
+    "longitude": 76.032898
+  },
+  "violations": {
+    "total": 176,
+    "reported": 160
+  },
+  "challans": {
+    "total": 161,
+    "breakdown": {
+      "Speeding": 17,
+      "Red Light": 21,
+      "No Helmet": 8,
+      "No Seatbelt": 22,
+      "Drunk Driving": 3,
+      "Wrong Way Driving": 11,
+      "No License": 21,
+      "Lane Violation": 11,
+      "Overloading": 11,
+      "Modified Vehicle": 20,
+      "Noise Pollution": 16
+    },
+    "collected_amount": 123544.76
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 883
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 81
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192601"
+  },
+  "centerId": "OPBI-805",
+  "date": {
+    "$date": "2024-12-10T12:36:48.571Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.836568,
+        28.543646
+      ]
+    },
+    "latitude": 28.543646,
+    "longitude": 77.836568
+  },
+  "violations": {
+    "total": 157,
+    "reported": 143
+  },
+  "challans": {
+    "total": 149,
+    "breakdown": {
+      "Speeding": 17,
+      "Red Light": 25,
+      "No Helmet": 10,
+      "No Seatbelt": 1,
+      "Drunk Driving": 16,
+      "No License": 5,
+      "Invalid Insurance": 22,
+      "Phone While Driving": 14,
+      "Overloading": 18,
+      "No Registration": 14,
+      "Modified Vehicle": 5,
+      "Noise Pollution": 2
+    },
+    "collected_amount": 94368.12
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 299
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 26
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192602"
+  },
+  "centerId": "KAKZ-629",
+  "date": {
+    "$date": "2025-02-16T01:57:24.436Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.654264,
+        22.78633
+      ]
+    },
+    "latitude": 22.78633,
+    "longitude": 87.654264
+  },
+  "violations": {
+    "total": 172,
+    "reported": 157
+  },
+  "challans": {
+    "total": 163,
+    "breakdown": {
+      "Speeding": 2,
+      "Red Light": 4,
+      "No Seatbelt": 9,
+      "Drunk Driving": 11,
+      "Wrong Way Driving": 22,
+      "No License": 13,
+      "Invalid Insurance": 19,
+      "Phone While Driving": 5,
+      "Lane Violation": 23,
+      "Overloading": 12,
+      "No Registration": 4,
+      "Modified Vehicle": 18,
+      "Noise Pollution": 21
+    },
+    "collected_amount": 128973.82
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 933
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 34
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192603"
+  },
+  "centerId": "MZNK-535",
+  "date": {
+    "$date": "2024-09-05T23:44:44.032Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.408797,
+        30.089679
+      ]
+    },
+    "latitude": 30.089679,
+    "longitude": 76.408797
+  },
+  "violations": {
+    "total": 242,
+    "reported": 187
+  },
+  "challans": {
+    "total": 192,
+    "breakdown": {
+      "Red Light": 13,
+      "No Helmet": 18,
+      "No Seatbelt": 25,
+      "Drunk Driving": 21,
+      "Wrong Way Driving": 8,
+      "No License": 11,
+      "Invalid Insurance": 17,
+      "Phone While Driving": 8,
+      "Illegal Parking": 9,
+      "Lane Violation": 22,
+      "Overloading": 20,
+      "Modified Vehicle": 2,
+      "Noise Pollution": 18
+    },
+    "collected_amount": 187596.28
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 658
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 21
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192604"
+  },
+  "centerId": "PHJQ-558",
+  "date": {
+    "$date": "2025-01-16T11:50:14.182Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.608358,
+        13.440714
+      ]
+    },
+    "latitude": 13.440714,
+    "longitude": 77.608358
+  },
+  "violations": {
+    "total": 110,
+    "reported": 95
+  },
+  "challans": {
+    "total": 99,
+    "breakdown": {
+      "Speeding": 14,
+      "No Helmet": 3,
+      "Drunk Driving": 24,
+      "Wrong Way Driving": 4,
+      "No License": 5,
+      "Invalid Insurance": 25,
+      "Phone While Driving": 10,
+      "Illegal Parking": 2,
+      "Lane Violation": 4,
+      "Noise Pollution": 8
+    },
+    "collected_amount": 75218.14
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 653
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 60
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192605"
+  },
+  "centerId": "UQLA-337",
+  "date": {
+    "$date": "2025-02-20T06:33:26.332Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.233563,
+        24.10998
+      ]
+    },
+    "latitude": 24.10998,
+    "longitude": 78.233563
+  },
+  "violations": {
+    "total": 158,
+    "reported": 118
+  },
+  "challans": {
+    "total": 122,
+    "breakdown": {
+      "Speeding": 19,
+      "No Helmet": 17,
+      "No Seatbelt": 21,
+      "Drunk Driving": 24,
+      "Wrong Way Driving": 5,
+      "No License": 3,
+      "Invalid Insurance": 7,
+      "Illegal Parking": 2,
+      "Overloading": 6,
+      "Modified Vehicle": 12,
+      "Noise Pollution": 6
+    },
+    "collected_amount": 187137.02
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 844
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 58
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192606"
+  },
+  "centerId": "BMYQ-315",
+  "date": {
+    "$date": "2025-01-23T16:43:55.052Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.222219,
+        23.197632
+      ]
+    },
+    "latitude": 23.197632,
+    "longitude": 87.222219
+  },
+  "violations": {
+    "total": 141,
+    "reported": 113
+  },
+  "challans": {
+    "total": 119,
+    "breakdown": {
+      "Red Light": 17,
+      "No Helmet": 8,
+      "No Seatbelt": 0,
+      "Drunk Driving": 0,
+      "Wrong Way Driving": 10,
+      "No License": 5,
+      "Invalid Insurance": 5,
+      "Phone While Driving": 13,
+      "Illegal Parking": 10,
+      "Lane Violation": 18,
+      "Overloading": 12,
+      "Modified Vehicle": 9,
+      "Noise Pollution": 12
+    },
+    "collected_amount": 125014.33
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 548
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 38
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192607"
+  },
+  "centerId": "VPEH-690",
+  "date": {
+    "$date": "2024-11-15T03:16:16.412Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.826743,
+        19.947508
+      ]
+    },
+    "latitude": 19.947508,
+    "longitude": 72.826743
+  },
+  "violations": {
+    "total": 97,
+    "reported": 80
+  },
+  "challans": {
+    "total": 88,
+    "breakdown": {
+      "Speeding": 14,
+      "No Seatbelt": 3,
+      "Drunk Driving": 17,
+      "No License": 3,
+      "Lane Violation": 19,
+      "Overloading": 10,
+      "No Registration": 22
+    },
+    "collected_amount": 92085.19
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 582
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 38
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192608"
+  },
+  "centerId": "DEOJ-601",
+  "date": {
+    "$date": "2024-09-10T09:12:39.207Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.365155,
+        11.935969
+      ]
+    },
+    "latitude": 11.935969,
+    "longitude": 77.365155
+  },
+  "violations": {
+    "total": 159,
+    "reported": 112
+  },
+  "challans": {
+    "total": 117,
+    "breakdown": {
+      "Red Light": 4,
+      "No Seatbelt": 7,
+      "Drunk Driving": 12,
+      "Wrong Way Driving": 17,
+      "Invalid Insurance": 21,
+      "Phone While Driving": 12,
+      "Illegal Parking": 7,
+      "Overloading": 11,
+      "No Registration": 8,
+      "Noise Pollution": 18
+    },
+    "collected_amount": 91237.6
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 877
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 55
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192609"
+  },
+  "centerId": "MWOP-767",
+  "date": {
+    "$date": "2025-01-23T13:47:30.581Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.938992,
+        13.286649
+      ]
+    },
+    "latitude": 13.286649,
+    "longitude": 76.938992
+  },
+  "violations": {
+    "total": 154,
+    "reported": 100
+  },
+  "challans": {
+    "total": 109,
+    "breakdown": {
+      "Speeding": 17,
+      "Red Light": 24,
+      "No Helmet": 14,
+      "No Seatbelt": 6,
+      "No License": 13,
+      "Phone While Driving": 14,
+      "Lane Violation": 21
+    },
+    "collected_amount": 79682.84
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 739
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 69
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19260a"
+  },
+  "centerId": "RNDV-877",
+  "date": {
+    "$date": "2024-11-25T05:11:09.016Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.796696,
+        23.212418
+      ]
+    },
+    "latitude": 23.212418,
+    "longitude": 77.796696
+  },
+  "violations": {
+    "total": 167,
+    "reported": 112
+  },
+  "challans": {
+    "total": 120,
+    "breakdown": {
+      "Speeding": 1,
+      "No Seatbelt": 4,
+      "Drunk Driving": 16,
+      "Invalid Insurance": 23,
+      "Phone While Driving": 23,
+      "Lane Violation": 0,
+      "No Registration": 11,
+      "Modified Vehicle": 20,
+      "Noise Pollution": 22
+    },
+    "collected_amount": 93862.6
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 364
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 25
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19260b"
+  },
+  "centerId": "HGDM-452",
+  "date": {
+    "$date": "2024-12-05T15:35:07.842Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.08211,
+        20.710434
+      ]
+    },
+    "latitude": 20.710434,
+    "longitude": 73.08211
+  },
+  "violations": {
+    "total": 136,
+    "reported": 130
+  },
+  "challans": {
+    "total": 133,
+    "breakdown": {
+      "Red Light": 21,
+      "No Helmet": 7,
+      "No Seatbelt": 21,
+      "Drunk Driving": 2,
+      "Wrong Way Driving": 7,
+      "No License": 19,
+      "Invalid Insurance": 4,
+      "Overloading": 24,
+      "No Registration": 4,
+      "Noise Pollution": 24
+    },
+    "collected_amount": 56564.34
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 730
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 85
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19260c"
+  },
+  "centerId": "NVDD-593",
+  "date": {
+    "$date": "2024-11-10T22:06:12.738Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.141004,
+        24.331204
+      ]
+    },
+    "latitude": 24.331204,
+    "longitude": 77.141004
+  },
+  "violations": {
+    "total": 170,
+    "reported": 142
+  },
+  "challans": {
+    "total": 146,
+    "breakdown": {
+      "Speeding": 18,
+      "Red Light": 1,
+      "No Helmet": 3,
+      "No Seatbelt": 12,
+      "Drunk Driving": 9,
+      "No License": 18,
+      "Invalid Insurance": 5,
+      "Phone While Driving": 19,
+      "Illegal Parking": 5,
+      "Lane Violation": 22,
+      "Overloading": 8,
+      "No Registration": 3,
+      "Modified Vehicle": 11,
+      "Noise Pollution": 12
+    },
+    "collected_amount": 104338.13
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 863
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 66
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19260d"
+  },
+  "centerId": "IJBP-150",
+  "date": {
+    "$date": "2024-12-12T18:48:20.053Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.39813,
+        13.605807
+      ]
+    },
+    "latitude": 13.605807,
+    "longitude": 76.39813
+  },
+  "violations": {
+    "total": 177,
+    "reported": 136
+  },
+  "challans": {
+    "total": 141,
+    "breakdown": {
+      "Speeding": 14,
+      "No Helmet": 12,
+      "No Seatbelt": 25,
+      "Drunk Driving": 2,
+      "Wrong Way Driving": 17,
+      "No License": 1,
+      "Phone While Driving": 1,
+      "Illegal Parking": 10,
+      "Lane Violation": 24,
+      "Overloading": 21,
+      "No Registration": 14
+    },
+    "collected_amount": 166967.11
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 528
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 28
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19260e"
+  },
+  "centerId": "TFVG-586",
+  "date": {
+    "$date": "2024-09-30T12:58:08.978Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.140981,
+        22.352049
+      ]
+    },
+    "latitude": 22.352049,
+    "longitude": 88.140981
+  },
+  "violations": {
+    "total": 180,
+    "reported": 142
+  },
+  "challans": {
+    "total": 146,
+    "breakdown": {
+      "Speeding": 13,
+      "Red Light": 24,
+      "No Helmet": 16,
+      "No Seatbelt": 5,
+      "Drunk Driving": 23,
+      "No License": 0,
+      "Invalid Insurance": 10,
+      "Illegal Parking": 17,
+      "Lane Violation": 6,
+      "No Registration": 16,
+      "Modified Vehicle": 16
+    },
+    "collected_amount": 81345.24
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 769
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 22
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19260f"
+  },
+  "centerId": "NOUX-130",
+  "date": {
+    "$date": "2024-09-23T02:42:07.745Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.70002,
+        11.781997
+      ]
+    },
+    "latitude": 11.781997,
+    "longitude": 78.70002
+  },
+  "violations": {
+    "total": 190,
+    "reported": 137
+  },
+  "challans": {
+    "total": 143,
+    "breakdown": {
+      "Speeding": 20,
+      "No Seatbelt": 19,
+      "Drunk Driving": 3,
+      "Invalid Insurance": 21,
+      "Illegal Parking": 13,
+      "Overloading": 25,
+      "No Registration": 19,
+      "Modified Vehicle": 23
+    },
+    "collected_amount": 170111.77
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 639
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 37
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192610"
+  },
+  "centerId": "UPFW-790",
+  "date": {
+    "$date": "2024-11-29T02:29:32.503Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.831396,
+        30.972019
+      ]
+    },
+    "latitude": 30.972019,
+    "longitude": 77.831396
+  },
+  "violations": {
+    "total": 182,
+    "reported": 127
+  },
+  "challans": {
+    "total": 132,
+    "breakdown": {
+      "Red Light": 24,
+      "No Helmet": 20,
+      "No Seatbelt": 18,
+      "Wrong Way Driving": 11,
+      "No License": 0,
+      "Phone While Driving": 16,
+      "Illegal Parking": 3,
+      "Lane Violation": 13,
+      "Overloading": 7,
+      "No Registration": 15,
+      "Modified Vehicle": 5
+    },
+    "collected_amount": 51269.84
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 462
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 45
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192611"
+  },
+  "centerId": "ALTO-162",
+  "date": {
+    "$date": "2024-12-18T12:12:02.631Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.250593,
+        22.910261
+      ]
+    },
+    "latitude": 22.910261,
+    "longitude": 88.250593
+  },
+  "violations": {
+    "total": 149,
+    "reported": 128
+  },
+  "challans": {
+    "total": 128,
+    "breakdown": {
+      "No Helmet": 5,
+      "No Seatbelt": 6,
+      "Drunk Driving": 19,
+      "No License": 18,
+      "Invalid Insurance": 7,
+      "Illegal Parking": 12,
+      "Lane Violation": 10,
+      "Overloading": 11,
+      "No Registration": 21,
+      "Modified Vehicle": 19
+    },
+    "collected_amount": 172647.7
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 826
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 28
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192612"
+  },
+  "centerId": "YCNV-739",
+  "date": {
+    "$date": "2024-12-02T18:36:54.367Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.892126,
+        12.676267
+      ]
+    },
+    "latitude": 12.676267,
+    "longitude": 78.892126
+  },
+  "violations": {
+    "total": 215,
+    "reported": 199
+  },
+  "challans": {
+    "total": 209,
+    "breakdown": {
+      "Speeding": 12,
+      "Red Light": 15,
+      "No Helmet": 13,
+      "No Seatbelt": 8,
+      "Drunk Driving": 3,
+      "Wrong Way Driving": 24,
+      "No License": 15,
+      "Invalid Insurance": 18,
+      "Illegal Parking": 12,
+      "Lane Violation": 22,
+      "Overloading": 13,
+      "No Registration": 11,
+      "Modified Vehicle": 25,
+      "Noise Pollution": 18
+    },
+    "collected_amount": 170664.6
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 973
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 61
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192613"
+  },
+  "centerId": "CXAF-276",
+  "date": {
+    "$date": "2024-08-26T01:18:44.268Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.187866,
+        30.125857
+      ]
+    },
+    "latitude": 30.125857,
+    "longitude": 77.187866
+  },
+  "violations": {
+    "total": 146,
+    "reported": 140
+  },
+  "challans": {
+    "total": 145,
+    "breakdown": {
+      "Red Light": 1,
+      "No Helmet": 12,
+      "No Seatbelt": 11,
+      "Wrong Way Driving": 10,
+      "No License": 23,
+      "Illegal Parking": 25,
+      "Lane Violation": 25,
+      "Overloading": 8,
+      "No Registration": 14,
+      "Modified Vehicle": 16
+    },
+    "collected_amount": 125738.75
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 948
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 36
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192614"
+  },
+  "centerId": "FQUS-413",
+  "date": {
+    "$date": "2025-02-09T18:38:30.021Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.177449,
+        22.065519
+      ]
+    },
+    "latitude": 22.065519,
+    "longitude": 88.177449
+  },
+  "violations": {
+    "total": 178,
+    "reported": 123
+  },
+  "challans": {
+    "total": 129,
+    "breakdown": {
+      "Speeding": 0,
+      "No Seatbelt": 1,
+      "Drunk Driving": 25,
+      "Invalid Insurance": 15,
+      "Phone While Driving": 3,
+      "Lane Violation": 16,
+      "Overloading": 16,
+      "No Registration": 24,
+      "Modified Vehicle": 13,
+      "Noise Pollution": 16
+    },
+    "collected_amount": 122042.81
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 488
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 94
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192615"
+  },
+  "centerId": "XIXK-649",
+  "date": {
+    "$date": "2025-01-22T04:46:24.723Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.950645,
+        20.538198
+      ]
+    },
+    "latitude": 20.538198,
+    "longitude": 73.950645
+  },
+  "violations": {
+    "total": 141,
+    "reported": 97
+  },
+  "challans": {
+    "total": 107,
+    "breakdown": {
+      "Red Light": 13,
+      "No Helmet": 14,
+      "No Seatbelt": 3,
+      "Drunk Driving": 11,
+      "Wrong Way Driving": 1,
+      "No License": 24,
+      "Invalid Insurance": 13,
+      "Phone While Driving": 24,
+      "Illegal Parking": 3,
+      "Lane Violation": 1,
+      "Noise Pollution": 0
+    },
+    "collected_amount": 66608.34
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 942
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 95
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192616"
+  },
+  "centerId": "CMXJ-666",
+  "date": {
+    "$date": "2025-02-01T05:06:14.296Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.771746,
+        12.742176
+      ]
+    },
+    "latitude": 12.742176,
+    "longitude": 76.771746
+  },
+  "violations": {
+    "total": 113,
+    "reported": 73
+  },
+  "challans": {
+    "total": 77,
+    "breakdown": {
+      "Red Light": 1,
+      "No Helmet": 5,
+      "No Seatbelt": 16,
+      "Invalid Insurance": 17,
+      "Phone While Driving": 8,
+      "Illegal Parking": 5,
+      "Overloading": 9,
+      "No Registration": 0,
+      "Modified Vehicle": 16
+    },
+    "collected_amount": 104526.22
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 280
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 72
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192617"
+  },
+  "centerId": "UUZV-857",
+  "date": {
+    "$date": "2024-11-25T04:48:09.163Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.656248,
+        30.814964
+      ]
+    },
+    "latitude": 30.814964,
+    "longitude": 76.656248
+  },
+  "violations": {
+    "total": 134,
+    "reported": 96
+  },
+  "challans": {
+    "total": 103,
+    "breakdown": {
+      "Speeding": 5,
+      "Red Light": 10,
+      "No Helmet": 13,
+      "No Seatbelt": 6,
+      "No License": 19,
+      "Invalid Insurance": 0,
+      "Phone While Driving": 12,
+      "Illegal Parking": 10,
+      "Overloading": 5,
+      "No Registration": 2,
+      "Modified Vehicle": 14,
+      "Noise Pollution": 7
+    },
+    "collected_amount": 194848.28
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 907
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 47
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192618"
+  },
+  "centerId": "KQTX-855",
+  "date": {
+    "$date": "2025-02-11T17:17:15.993Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.974066,
+        22.184458
+      ]
+    },
+    "latitude": 22.184458,
+    "longitude": 88.974066
+  },
+  "violations": {
+    "total": 190,
+    "reported": 154
+  },
+  "challans": {
+    "total": 162,
+    "breakdown": {
+      "Red Light": 3,
+      "No Helmet": 13,
+      "Drunk Driving": 18,
+      "Wrong Way Driving": 15,
+      "No License": 6,
+      "Invalid Insurance": 25,
+      "Phone While Driving": 7,
+      "Illegal Parking": 6,
+      "Lane Violation": 15,
+      "Overloading": 13,
+      "No Registration": 25,
+      "Noise Pollution": 16
+    },
+    "collected_amount": 196022.11
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 264
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 94
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192619"
+  },
+  "centerId": "JSGZ-894",
+  "date": {
+    "$date": "2024-12-15T00:19:43.082Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        75.234927,
+        30.908247
+      ]
+    },
+    "latitude": 30.908247,
+    "longitude": 75.234927
+  },
+  "violations": {
+    "total": 157,
+    "reported": 125
+  },
+  "challans": {
+    "total": 126,
+    "breakdown": {
+      "Red Light": 21,
+      "Drunk Driving": 5,
+      "Wrong Way Driving": 2,
+      "Invalid Insurance": 19,
+      "Phone While Driving": 9,
+      "Illegal Parking": 10,
+      "Lane Violation": 10,
+      "Overloading": 5,
+      "No Registration": 13,
+      "Modified Vehicle": 24,
+      "Noise Pollution": 8
+    },
+    "collected_amount": 82948.21
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 919
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 44
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19261a"
+  },
+  "centerId": "ZQRL-183",
+  "date": {
+    "$date": "2025-01-03T22:39:51.506Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.768384,
+        29.741084
+      ]
+    },
+    "latitude": 29.741084,
+    "longitude": 77.768384
+  },
+  "violations": {
+    "total": 141,
+    "reported": 123
+  },
+  "challans": {
+    "total": 125,
+    "breakdown": {
+      "No Helmet": 25,
+      "No Seatbelt": 12,
+      "Drunk Driving": 21,
+      "Wrong Way Driving": 4,
+      "Invalid Insurance": 15,
+      "Phone While Driving": 6,
+      "No Registration": 11,
+      "Modified Vehicle": 11,
+      "Noise Pollution": 20
+    },
+    "collected_amount": 122255.1
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 219
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 53
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19261b"
+  },
+  "centerId": "GZDL-560",
+  "date": {
+    "$date": "2024-10-25T17:55:10.058Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.092363,
+        20.601207
+      ]
+    },
+    "latitude": 20.601207,
+    "longitude": 72.092363
+  },
+  "violations": {
+    "total": 207,
+    "reported": 187
+  },
+  "challans": {
+    "total": 195,
+    "breakdown": {
+      "Speeding": 4,
+      "Red Light": 23,
+      "No Helmet": 23,
+      "No Seatbelt": 23,
+      "Drunk Driving": 24,
+      "Wrong Way Driving": 2,
+      "No License": 8,
+      "Invalid Insurance": 15,
+      "Phone While Driving": 17,
+      "Illegal Parking": 15,
+      "Lane Violation": 16,
+      "Modified Vehicle": 3,
+      "Noise Pollution": 22
+    },
+    "collected_amount": 90123.38
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 410
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 45
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19261c"
+  },
+  "centerId": "RDTJ-968",
+  "date": {
+    "$date": "2025-01-19T18:11:10.461Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.417943,
+        12.443945
+      ]
+    },
+    "latitude": 12.443945,
+    "longitude": 77.417943
+  },
+  "violations": {
+    "total": 154,
+    "reported": 138
+  },
+  "challans": {
+    "total": 143,
+    "breakdown": {
+      "No Helmet": 23,
+      "No Seatbelt": 20,
+      "Drunk Driving": 16,
+      "No License": 6,
+      "Invalid Insurance": 6,
+      "Phone While Driving": 5,
+      "Illegal Parking": 11,
+      "Lane Violation": 3,
+      "Overloading": 17,
+      "No Registration": 14,
+      "Modified Vehicle": 9,
+      "Noise Pollution": 13
+    },
+    "collected_amount": 141573.29
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 251
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 80
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19261d"
+  },
+  "centerId": "XYMH-311",
+  "date": {
+    "$date": "2024-12-20T01:52:25.472Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        75.742008,
+        29.191542
+      ]
+    },
+    "latitude": 29.191542,
+    "longitude": 75.742008
+  },
+  "violations": {
+    "total": 170,
+    "reported": 122
+  },
+  "challans": {
+    "total": 122,
+    "breakdown": {
+      "Speeding": 9,
+      "Red Light": 2,
+      "No Helmet": 8,
+      "Drunk Driving": 2,
+      "Wrong Way Driving": 16,
+      "No License": 20,
+      "Invalid Insurance": 15,
+      "Phone While Driving": 9,
+      "Illegal Parking": 11,
+      "Lane Violation": 15,
+      "No Registration": 13,
+      "Noise Pollution": 2
+    },
+    "collected_amount": 108050.13
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 730
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 78
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19261e"
+  },
+  "centerId": "TUXI-232",
+  "date": {
+    "$date": "2024-09-08T19:55:46.035Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        75.666341,
+        30.145968
+      ]
+    },
+    "latitude": 30.145968,
+    "longitude": 75.666341
+  },
+  "violations": {
+    "total": 159,
+    "reported": 119
+  },
+  "challans": {
+    "total": 120,
+    "breakdown": {
+      "Speeding": 10,
+      "Wrong Way Driving": 1,
+      "No License": 16,
+      "Invalid Insurance": 1,
+      "Phone While Driving": 6,
+      "Illegal Parking": 9,
+      "Lane Violation": 24,
+      "No Registration": 25,
+      "Modified Vehicle": 6,
+      "Noise Pollution": 22
+    },
+    "collected_amount": 89730.48
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 598
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 78
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19261f"
+  },
+  "centerId": "BXSV-177",
+  "date": {
+    "$date": "2024-10-21T05:29:39.194Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.236931,
+        24.796045
+      ]
+    },
+    "latitude": 24.796045,
+    "longitude": 77.236931
+  },
+  "violations": {
+    "total": 141,
+    "reported": 136
+  },
+  "challans": {
+    "total": 137,
+    "breakdown": {
+      "Red Light": 9,
+      "No Helmet": 8,
+      "Drunk Driving": 12,
+      "Wrong Way Driving": 12,
+      "No License": 1,
+      "Phone While Driving": 17,
+      "Illegal Parking": 13,
+      "Lane Violation": 14,
+      "Overloading": 11,
+      "No Registration": 20,
+      "Modified Vehicle": 5,
+      "Noise Pollution": 15
+    },
+    "collected_amount": 174305.91
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 750
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 100
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192620"
+  },
+  "centerId": "JDPY-936",
+  "date": {
+    "$date": "2024-11-14T02:03:23.993Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.204652,
+        20.187649
+      ]
+    },
+    "latitude": 20.187649,
+    "longitude": 72.204652
+  },
+  "violations": {
+    "total": 173,
+    "reported": 158
+  },
+  "challans": {
+    "total": 160,
+    "breakdown": {
+      "Red Light": 1,
+      "No Seatbelt": 20,
+      "Drunk Driving": 11,
+      "Wrong Way Driving": 6,
+      "Invalid Insurance": 18,
+      "Phone While Driving": 18,
+      "Lane Violation": 7,
+      "Overloading": 24,
+      "No Registration": 19,
+      "Modified Vehicle": 11,
+      "Noise Pollution": 25
+    },
+    "collected_amount": 121988.45
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 611
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 96
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192621"
+  },
+  "centerId": "ATCU-119",
+  "date": {
+    "$date": "2024-11-05T07:48:38.377Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.118352,
+        20.421258
+      ]
+    },
+    "latitude": 20.421258,
+    "longitude": 72.118352
+  },
+  "violations": {
+    "total": 166,
+    "reported": 128
+  },
+  "challans": {
+    "total": 129,
+    "breakdown": {
+      "Speeding": 13,
+      "Red Light": 3,
+      "No Helmet": 18,
+      "No Seatbelt": 3,
+      "Wrong Way Driving": 21,
+      "No License": 8,
+      "Phone While Driving": 2,
+      "Illegal Parking": 24,
+      "Lane Violation": 3,
+      "Overloading": 5,
+      "Modified Vehicle": 9,
+      "Noise Pollution": 20
+    },
+    "collected_amount": 101881.11
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 370
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 55
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192622"
+  },
+  "centerId": "OWVC-101",
+  "date": {
+    "$date": "2025-02-16T19:10:52.468Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.070598,
+        24.534747
+      ]
+    },
+    "latitude": 24.534747,
+    "longitude": 77.070598
+  },
+  "violations": {
+    "total": 150,
+    "reported": 113
+  },
+  "challans": {
+    "total": 117,
+    "breakdown": {
+      "Red Light": 8,
+      "No Helmet": 13,
+      "No Seatbelt": 22,
+      "Drunk Driving": 23,
+      "Wrong Way Driving": 5,
+      "Phone While Driving": 4,
+      "Lane Violation": 22,
+      "Overloading": 0,
+      "Noise Pollution": 20
+    },
+    "collected_amount": 98073.83
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 972
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 30
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192623"
+  },
+  "centerId": "FIIS-316",
+  "date": {
+    "$date": "2024-10-15T06:49:03.367Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.721411,
+        20.851948
+      ]
+    },
+    "latitude": 20.851948,
+    "longitude": 72.721411
+  },
+  "violations": {
+    "total": 67,
+    "reported": 47
+  },
+  "challans": {
+    "total": 57,
+    "breakdown": {
+      "Speeding": 14,
+      "No Helmet": 20,
+      "No Seatbelt": 3,
+      "Wrong Way Driving": 4,
+      "Invalid Insurance": 0,
+      "No Registration": 12,
+      "Noise Pollution": 4
+    },
+    "collected_amount": 66337.82
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 910
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 57
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192624"
+  },
+  "centerId": "CABJ-389",
+  "date": {
+    "$date": "2024-12-28T10:21:08.488Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.862924,
+        11.324679
+      ]
+    },
+    "latitude": 11.324679,
+    "longitude": 76.862924
+  },
+  "violations": {
+    "total": 148,
+    "reported": 108
+  },
+  "challans": {
+    "total": 118,
+    "breakdown": {
+      "Speeding": 24,
+      "Red Light": 0,
+      "No Helmet": 0,
+      "No Seatbelt": 9,
+      "No License": 25,
+      "Phone While Driving": 20,
+      "Illegal Parking": 14,
+      "Overloading": 5,
+      "Modified Vehicle": 21
+    },
+    "collected_amount": 174417.6
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 288
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 71
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192625"
+  },
+  "centerId": "CIIC-918",
+  "date": {
+    "$date": "2024-10-07T07:38:18.936Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.493825,
+        22.892479
+      ]
+    },
+    "latitude": 22.892479,
+    "longitude": 87.493825
+  },
+  "violations": {
+    "total": 99,
+    "reported": 85
+  },
+  "challans": {
+    "total": 95,
+    "breakdown": {
+      "Speeding": 20,
+      "Red Light": 6,
+      "No Helmet": 23,
+      "Drunk Driving": 6,
+      "Phone While Driving": 6,
+      "Lane Violation": 1,
+      "Overloading": 15,
+      "Noise Pollution": 18
+    },
+    "collected_amount": 100012.56
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 491
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 32
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192626"
+  },
+  "centerId": "GSCM-302",
+  "date": {
+    "$date": "2024-12-23T04:38:00.600Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.453968,
+        23.023634
+      ]
+    },
+    "latitude": 23.023634,
+    "longitude": 87.453968
+  },
+  "violations": {
+    "total": 170,
+    "reported": 143
+  },
+  "challans": {
+    "total": 145,
+    "breakdown": {
+      "Speeding": 21,
+      "Red Light": 4,
+      "No Helmet": 21,
+      "Drunk Driving": 11,
+      "No License": 24,
+      "Phone While Driving": 23,
+      "Lane Violation": 15,
+      "Overloading": 7,
+      "No Registration": 8,
+      "Modified Vehicle": 11
+    },
+    "collected_amount": 146033.27
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 907
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 72
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192627"
+  },
+  "centerId": "FYTX-633",
+  "date": {
+    "$date": "2024-11-12T12:30:50.647Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        75.052741,
+        29.02902
+      ]
+    },
+    "latitude": 29.02902,
+    "longitude": 75.052741
+  },
+  "violations": {
+    "total": 173,
+    "reported": 138
+  },
+  "challans": {
+    "total": 145,
+    "breakdown": {
+      "Speeding": 19,
+      "Red Light": 2,
+      "No Helmet": 21,
+      "Drunk Driving": 3,
+      "Wrong Way Driving": 15,
+      "No License": 20,
+      "Invalid Insurance": 20,
+      "Phone While Driving": 3,
+      "Lane Violation": 14,
+      "No Registration": 12,
+      "Noise Pollution": 16
+    },
+    "collected_amount": 183899.11
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 593
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 98
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192628"
+  },
+  "centerId": "UOEY-421",
+  "date": {
+    "$date": "2024-11-27T16:44:37.576Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.480861,
+        30.221858
+      ]
+    },
+    "latitude": 30.221858,
+    "longitude": 77.480861
+  },
+  "violations": {
+    "total": 144,
+    "reported": 139
+  },
+  "challans": {
+    "total": 143,
+    "breakdown": {
+      "Speeding": 6,
+      "Red Light": 19,
+      "No Helmet": 25,
+      "No Seatbelt": 16,
+      "Wrong Way Driving": 15,
+      "No License": 13,
+      "Invalid Insurance": 6,
+      "Illegal Parking": 5,
+      "No Registration": 21,
+      "Modified Vehicle": 17
+    },
+    "collected_amount": 127499.37
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 253
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 36
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192629"
+  },
+  "centerId": "PZJL-472",
+  "date": {
+    "$date": "2024-09-16T12:45:20.922Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.738097,
+        22.810339
+      ]
+    },
+    "latitude": 22.810339,
+    "longitude": 88.738097
+  },
+  "violations": {
+    "total": 131,
+    "reported": 110
+  },
+  "challans": {
+    "total": 118,
+    "breakdown": {
+      "Red Light": 2,
+      "Drunk Driving": 19,
+      "Wrong Way Driving": 5,
+      "No License": 14,
+      "Invalid Insurance": 14,
+      "Phone While Driving": 6,
+      "Illegal Parking": 25,
+      "Overloading": 16,
+      "No Registration": 1,
+      "Modified Vehicle": 13,
+      "Noise Pollution": 3
+    },
+    "collected_amount": 96254.29
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 252
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 90
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19262a"
+  },
+  "centerId": "CTFP-396",
+  "date": {
+    "$date": "2024-08-25T22:17:32.274Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.450233,
+        28.945588
+      ]
+    },
+    "latitude": 28.945588,
+    "longitude": 76.450233
+  },
+  "violations": {
+    "total": 175,
+    "reported": 148
+  },
+  "challans": {
+    "total": 152,
+    "breakdown": {
+      "Speeding": 21,
+      "Red Light": 14,
+      "No Helmet": 9,
+      "Drunk Driving": 17,
+      "Wrong Way Driving": 5,
+      "Invalid Insurance": 15,
+      "Phone While Driving": 19,
+      "Illegal Parking": 10,
+      "Lane Violation": 24,
+      "Overloading": 4,
+      "No Registration": 12,
+      "Modified Vehicle": 2
+    },
+    "collected_amount": 93420.4
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 305
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 22
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19262b"
+  },
+  "centerId": "IOEC-349",
+  "date": {
+    "$date": "2024-12-08T05:09:40.320Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        75.392447,
+        28.822102
+      ]
+    },
+    "latitude": 28.822102,
+    "longitude": 75.392447
+  },
+  "violations": {
+    "total": 125,
+    "reported": 94
+  },
+  "challans": {
+    "total": 104,
+    "breakdown": {
+      "Speeding": 5,
+      "Drunk Driving": 24,
+      "Wrong Way Driving": 5,
+      "No License": 14,
+      "Invalid Insurance": 13,
+      "Phone While Driving": 8,
+      "Lane Violation": 18,
+      "No Registration": 17
+    },
+    "collected_amount": 119799.43
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 466
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 38
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19262c"
+  },
+  "centerId": "ZDQI-949",
+  "date": {
+    "$date": "2024-12-04T01:02:50.445Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.058222,
+        23.82257
+      ]
+    },
+    "latitude": 23.82257,
+    "longitude": 77.058222
+  },
+  "violations": {
+    "total": 111,
+    "reported": 94
+  },
+  "challans": {
+    "total": 94,
+    "breakdown": {
+      "Red Light": 8,
+      "No Seatbelt": 10,
+      "Drunk Driving": 2,
+      "Invalid Insurance": 25,
+      "Phone While Driving": 8,
+      "Lane Violation": 15,
+      "Overloading": 12,
+      "No Registration": 14
+    },
+    "collected_amount": 179937.25
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 327
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 34
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19262d"
+  },
+  "centerId": "SSVD-886",
+  "date": {
+    "$date": "2024-12-11T13:02:20.325Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.006015,
+        22.8391
+      ]
+    },
+    "latitude": 22.8391,
+    "longitude": 87.006015
+  },
+  "violations": {
+    "total": 116,
+    "reported": 91
+  },
+  "challans": {
+    "total": 101,
+    "breakdown": {
+      "Speeding": 3,
+      "Red Light": 15,
+      "No Seatbelt": 19,
+      "No License": 3,
+      "Invalid Insurance": 22,
+      "Phone While Driving": 3,
+      "Illegal Parking": 4,
+      "Lane Violation": 4,
+      "Overloading": 4,
+      "Modified Vehicle": 24,
+      "Noise Pollution": 0
+    },
+    "collected_amount": 112686.23
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 388
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 39
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19262e"
+  },
+  "centerId": "MGNU-872",
+  "date": {
+    "$date": "2024-10-07T22:17:40.332Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.298222,
+        20.347979
+      ]
+    },
+    "latitude": 20.347979,
+    "longitude": 72.298222
+  },
+  "violations": {
+    "total": 198,
+    "reported": 160
+  },
+  "challans": {
+    "total": 164,
+    "breakdown": {
+      "Speeding": 16,
+      "Red Light": 18,
+      "No Helmet": 5,
+      "No Seatbelt": 18,
+      "Drunk Driving": 7,
+      "Wrong Way Driving": 3,
+      "No License": 25,
+      "Invalid Insurance": 19,
+      "Phone While Driving": 4,
+      "Illegal Parking": 8,
+      "Lane Violation": 17,
+      "Overloading": 7,
+      "Modified Vehicle": 7,
+      "Noise Pollution": 10
+    },
+    "collected_amount": 53393.46
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 858
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 49
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19262f"
+  },
+  "centerId": "FCXZ-450",
+  "date": {
+    "$date": "2024-11-08T03:11:37.158Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.718957,
+        22.00519
+      ]
+    },
+    "latitude": 22.00519,
+    "longitude": 87.718957
+  },
+  "violations": {
+    "total": 144,
+    "reported": 138
+  },
+  "challans": {
+    "total": 144,
+    "breakdown": {
+      "Red Light": 14,
+      "No Seatbelt": 24,
+      "Drunk Driving": 11,
+      "Wrong Way Driving": 2,
+      "No License": 5,
+      "Invalid Insurance": 10,
+      "Phone While Driving": 12,
+      "Illegal Parking": 25,
+      "Lane Violation": 23,
+      "Overloading": 18
+    },
+    "collected_amount": 118337.79
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 949
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 43
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192630"
+  },
+  "centerId": "GTZZ-813",
+  "date": {
+    "$date": "2024-12-18T02:01:58.469Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.545011,
+        12.726507
+      ]
+    },
+    "latitude": 12.726507,
+    "longitude": 77.545011
+  },
+  "violations": {
+    "total": 92,
+    "reported": 87
+  },
+  "challans": {
+    "total": 92,
+    "breakdown": {
+      "Speeding": 4,
+      "Red Light": 3,
+      "No Helmet": 13,
+      "No Seatbelt": 12,
+      "Wrong Way Driving": 10,
+      "No License": 7,
+      "Invalid Insurance": 17,
+      "Phone While Driving": 7,
+      "No Registration": 13,
+      "Modified Vehicle": 6
+    },
+    "collected_amount": 121682.88
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 843
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 84
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192631"
+  },
+  "centerId": "SCQQ-423",
+  "date": {
+    "$date": "2024-11-02T04:38:46.917Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.15391,
+        19.549832
+      ]
+    },
+    "latitude": 19.549832,
+    "longitude": 72.15391
+  },
+  "violations": {
+    "total": 189,
+    "reported": 135
+  },
+  "challans": {
+    "total": 141,
+    "breakdown": {
+      "Red Light": 2,
+      "No Helmet": 16,
+      "Drunk Driving": 24,
+      "Invalid Insurance": 23,
+      "Phone While Driving": 21,
+      "Illegal Parking": 7,
+      "Overloading": 15,
+      "No Registration": 4,
+      "Modified Vehicle": 16,
+      "Noise Pollution": 13
+    },
+    "collected_amount": 108932.73
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 303
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 96
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192632"
+  },
+  "centerId": "MBDG-554",
+  "date": {
+    "$date": "2024-10-04T04:02:51.426Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.426887,
+        20.57357
+      ]
+    },
+    "latitude": 20.57357,
+    "longitude": 73.426887
+  },
+  "violations": {
+    "total": 159,
+    "reported": 154
+  },
+  "challans": {
+    "total": 156,
+    "breakdown": {
+      "Speeding": 22,
+      "Red Light": 15,
+      "No Helmet": 14,
+      "No Seatbelt": 17,
+      "Drunk Driving": 2,
+      "No License": 11,
+      "Invalid Insurance": 19,
+      "Phone While Driving": 7,
+      "Illegal Parking": 21,
+      "No Registration": 10,
+      "Modified Vehicle": 18
+    },
+    "collected_amount": 53302.58
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 753
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 52
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192633"
+  },
+  "centerId": "FEQF-468",
+  "date": {
+    "$date": "2024-08-26T03:14:27.797Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.556619,
+        13.534044
+      ]
+    },
+    "latitude": 13.534044,
+    "longitude": 76.556619
+  },
+  "violations": {
+    "total": 216,
+    "reported": 175
+  },
+  "challans": {
+    "total": 181,
+    "breakdown": {
+      "Red Light": 18,
+      "No Helmet": 13,
+      "No Seatbelt": 4,
+      "Drunk Driving": 18,
+      "Wrong Way Driving": 17,
+      "No License": 24,
+      "Invalid Insurance": 10,
+      "Phone While Driving": 0,
+      "Illegal Parking": 23,
+      "Overloading": 15,
+      "No Registration": 15,
+      "Modified Vehicle": 5,
+      "Noise Pollution": 19
+    },
+    "collected_amount": 146001.87
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 696
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 57
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192634"
+  },
+  "centerId": "FREM-210",
+  "date": {
+    "$date": "2024-10-15T13:53:44.989Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.093002,
+        20.985838
+      ]
+    },
+    "latitude": 20.985838,
+    "longitude": 72.093002
+  },
+  "violations": {
+    "total": 152,
+    "reported": 126
+  },
+  "challans": {
+    "total": 134,
+    "breakdown": {
+      "Speeding": 14,
+      "Red Light": 20,
+      "No Helmet": 0,
+      "No Seatbelt": 25,
+      "Drunk Driving": 13,
+      "Wrong Way Driving": 0,
+      "No License": 9,
+      "Illegal Parking": 5,
+      "Overloading": 19,
+      "No Registration": 8,
+      "Modified Vehicle": 10,
+      "Noise Pollution": 11
+    },
+    "collected_amount": 169604.63
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 230
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 67
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192635"
+  },
+  "centerId": "ZDNV-650",
+  "date": {
+    "$date": "2024-10-24T22:26:39.098Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.606626,
+        19.175174
+      ]
+    },
+    "latitude": 19.175174,
+    "longitude": 73.606626
+  },
+  "violations": {
+    "total": 117,
+    "reported": 102
+  },
+  "challans": {
+    "total": 112,
+    "breakdown": {
+      "Speeding": 25,
+      "Red Light": 15,
+      "No Seatbelt": 10,
+      "Drunk Driving": 12,
+      "Wrong Way Driving": 2,
+      "No License": 24,
+      "Phone While Driving": 5,
+      "Lane Violation": 12,
+      "No Registration": 2,
+      "Noise Pollution": 5
+    },
+    "collected_amount": 63490.58
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 697
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 85
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192636"
+  },
+  "centerId": "HNWP-960",
+  "date": {
+    "$date": "2024-11-11T14:38:26.909Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.545408,
+        28.526031
+      ]
+    },
+    "latitude": 28.526031,
+    "longitude": 76.545408
+  },
+  "violations": {
+    "total": 171,
+    "reported": 130
+  },
+  "challans": {
+    "total": 134,
+    "breakdown": {
+      "Red Light": 11,
+      "No Helmet": 19,
+      "No Seatbelt": 21,
+      "Drunk Driving": 1,
+      "Wrong Way Driving": 2,
+      "No License": 11,
+      "Invalid Insurance": 18,
+      "Phone While Driving": 5,
+      "Illegal Parking": 9,
+      "Lane Violation": 21,
+      "Overloading": 11,
+      "Modified Vehicle": 0,
+      "Noise Pollution": 5
+    },
+    "collected_amount": 160382.75
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 757
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 61
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192637"
+  },
+  "centerId": "BJXY-311",
+  "date": {
+    "$date": "2025-01-21T01:23:28.139Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.091818,
+        23.285549
+      ]
+    },
+    "latitude": 23.285549,
+    "longitude": 78.091818
+  },
+  "violations": {
+    "total": 216,
+    "reported": 160
+  },
+  "challans": {
+    "total": 167,
+    "breakdown": {
+      "Speeding": 12,
+      "Red Light": 22,
+      "No Helmet": 20,
+      "No Seatbelt": 18,
+      "Drunk Driving": 0,
+      "Wrong Way Driving": 22,
+      "No License": 24,
+      "Invalid Insurance": 6,
+      "Illegal Parking": 17,
+      "Lane Violation": 3,
+      "Overloading": 3,
+      "No Registration": 11,
+      "Modified Vehicle": 9
+    },
+    "collected_amount": 114150.6
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 757
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 57
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192638"
+  },
+  "centerId": "EEKL-850",
+  "date": {
+    "$date": "2024-12-26T00:45:13.611Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.244092,
+        13.700323
+      ]
+    },
+    "latitude": 13.700323,
+    "longitude": 78.244092
+  },
+  "violations": {
+    "total": 137,
+    "reported": 92
+  },
+  "challans": {
+    "total": 95,
+    "breakdown": {
+      "Speeding": 2,
+      "Red Light": 3,
+      "No Seatbelt": 8,
+      "Drunk Driving": 2,
+      "Wrong Way Driving": 5,
+      "Invalid Insurance": 17,
+      "Illegal Parking": 12,
+      "Lane Violation": 7,
+      "Overloading": 25,
+      "No Registration": 8,
+      "Modified Vehicle": 6
+    },
+    "collected_amount": 118561.68
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 580
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 36
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192639"
+  },
+  "centerId": "RYSE-452",
+  "date": {
+    "$date": "2024-10-11T10:32:39.482Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.373517,
+        19.604164
+      ]
+    },
+    "latitude": 19.604164,
+    "longitude": 72.373517
+  },
+  "violations": {
+    "total": 169,
+    "reported": 113
+  },
+  "challans": {
+    "total": 123,
+    "breakdown": {
+      "Speeding": 11,
+      "Red Light": 20,
+      "No Seatbelt": 20,
+      "No License": 8,
+      "Invalid Insurance": 8,
+      "Phone While Driving": 24,
+      "Illegal Parking": 20,
+      "Lane Violation": 2,
+      "Overloading": 10
+    },
+    "collected_amount": 120095.41
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 801
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 26
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19263a"
+  },
+  "centerId": "FTKD-257",
+  "date": {
+    "$date": "2024-11-01T03:18:07.609Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.870355,
+        13.955159
+      ]
+    },
+    "latitude": 13.955159,
+    "longitude": 78.870355
+  },
+  "violations": {
+    "total": 158,
+    "reported": 127
+  },
+  "challans": {
+    "total": 135,
+    "breakdown": {
+      "Speeding": 5,
+      "Red Light": 11,
+      "No Helmet": 25,
+      "No Seatbelt": 22,
+      "Drunk Driving": 19,
+      "Wrong Way Driving": 4,
+      "Phone While Driving": 7,
+      "Illegal Parking": 2,
+      "Lane Violation": 18,
+      "Overloading": 5,
+      "No Registration": 2,
+      "Modified Vehicle": 15
+    },
+    "collected_amount": 64303.6
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 429
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 51
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19263b"
+  },
+  "centerId": "DYOR-215",
+  "date": {
+    "$date": "2025-02-09T05:39:20.772Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.479992,
+        23.367414
+      ]
+    },
+    "latitude": 23.367414,
+    "longitude": 78.479992
+  },
+  "violations": {
+    "total": 176,
+    "reported": 149
+  },
+  "challans": {
+    "total": 151,
+    "breakdown": {
+      "Red Light": 14,
+      "No Helmet": 8,
+      "No Seatbelt": 6,
+      "Drunk Driving": 17,
+      "Wrong Way Driving": 22,
+      "No License": 9,
+      "Phone While Driving": 10,
+      "Illegal Parking": 9,
+      "Lane Violation": 5,
+      "Overloading": 16,
+      "No Registration": 19,
+      "Modified Vehicle": 8,
+      "Noise Pollution": 8
+    },
+    "collected_amount": 145588.43
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 662
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 60
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19263c"
+  },
+  "centerId": "VHHI-157",
+  "date": {
+    "$date": "2025-01-29T01:47:13.501Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.565536,
+        30.279299
+      ]
+    },
+    "latitude": 30.279299,
+    "longitude": 77.565536
+  },
+  "violations": {
+    "total": 159,
+    "reported": 158
+  },
+  "challans": {
+    "total": 159,
+    "breakdown": {
+      "Red Light": 13,
+      "No Helmet": 8,
+      "No Seatbelt": 16,
+      "Drunk Driving": 3,
+      "Wrong Way Driving": 14,
+      "No License": 17,
+      "Invalid Insurance": 16,
+      "Phone While Driving": 6,
+      "Illegal Parking": 3,
+      "Lane Violation": 6,
+      "Overloading": 20,
+      "No Registration": 18,
+      "Noise Pollution": 19
+    },
+    "collected_amount": 185309.08
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 366
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 27
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19263d"
+  },
+  "centerId": "AIKM-690",
+  "date": {
+    "$date": "2025-01-05T18:24:47.817Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.263827,
+        24.834763
+      ]
+    },
+    "latitude": 24.834763,
+    "longitude": 77.263827
+  },
+  "violations": {
+    "total": 174,
+    "reported": 123
+  },
+  "challans": {
+    "total": 127,
+    "breakdown": {
+      "Red Light": 20,
+      "No Helmet": 10,
+      "No Seatbelt": 22,
+      "Drunk Driving": 10,
+      "Wrong Way Driving": 7,
+      "No License": 13,
+      "Phone While Driving": 10,
+      "Illegal Parking": 4,
+      "Lane Violation": 5,
+      "Overloading": 9,
+      "Modified Vehicle": 17
+    },
+    "collected_amount": 168078.31
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 511
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 98
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19263e"
+  },
+  "centerId": "WULD-108",
+  "date": {
+    "$date": "2025-02-12T16:37:18.607Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.894989,
+        29.430792
+      ]
+    },
+    "latitude": 29.430792,
+    "longitude": 77.894989
+  },
+  "violations": {
+    "total": 143,
+    "reported": 96
+  },
+  "challans": {
+    "total": 104,
+    "breakdown": {
+      "Speeding": 1,
+      "Drunk Driving": 22,
+      "No License": 10,
+      "Invalid Insurance": 16,
+      "Illegal Parking": 6,
+      "Lane Violation": 2,
+      "Overloading": 2,
+      "No Registration": 22,
+      "Modified Vehicle": 16,
+      "Noise Pollution": 7
+    },
+    "collected_amount": 55595.82
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 513
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 75
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19263f"
+  },
+  "centerId": "DJPJ-935",
+  "date": {
+    "$date": "2024-10-19T06:52:12.801Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.947871,
+        12.031141
+      ]
+    },
+    "latitude": 12.031141,
+    "longitude": 78.947871
+  },
+  "violations": {
+    "total": 212,
+    "reported": 180
+  },
+  "challans": {
+    "total": 184,
+    "breakdown": {
+      "Speeding": 14,
+      "Red Light": 1,
+      "No Helmet": 25,
+      "No Seatbelt": 18,
+      "Drunk Driving": 8,
+      "Wrong Way Driving": 8,
+      "No License": 10,
+      "Invalid Insurance": 21,
+      "Phone While Driving": 17,
+      "Lane Violation": 21,
+      "Overloading": 25,
+      "Modified Vehicle": 2,
+      "Noise Pollution": 14
+    },
+    "collected_amount": 191216.8
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 712
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 100
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192640"
+  },
+  "centerId": "RPIF-448",
+  "date": {
+    "$date": "2024-11-22T03:34:46.815Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.477642,
+        22.800374
+      ]
+    },
+    "latitude": 22.800374,
+    "longitude": 87.477642
+  },
+  "violations": {
+    "total": 136,
+    "reported": 85
+  },
+  "challans": {
+    "total": 90,
+    "breakdown": {
+      "Speeding": 10,
+      "No Helmet": 15,
+      "Wrong Way Driving": 10,
+      "Invalid Insurance": 9,
+      "Phone While Driving": 24,
+      "Illegal Parking": 2,
+      "Lane Violation": 2,
+      "No Registration": 5,
+      "Modified Vehicle": 13
+    },
+    "collected_amount": 131932.33
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 298
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 50
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192641"
+  },
+  "centerId": "SSPG-413",
+  "date": {
+    "$date": "2024-12-14T04:44:47.824Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.866022,
+        13.830561
+      ]
+    },
+    "latitude": 13.830561,
+    "longitude": 78.866022
+  },
+  "violations": {
+    "total": 140,
+    "reported": 125
+  },
+  "challans": {
+    "total": 133,
+    "breakdown": {
+      "Speeding": 14,
+      "Red Light": 4,
+      "No Helmet": 11,
+      "No Seatbelt": 23,
+      "Wrong Way Driving": 10,
+      "Phone While Driving": 11,
+      "Illegal Parking": 10,
+      "Lane Violation": 24,
+      "No Registration": 21,
+      "Modified Vehicle": 4,
+      "Noise Pollution": 1
+    },
+    "collected_amount": 124131.1
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 734
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 75
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192642"
+  },
+  "centerId": "SAKD-391",
+  "date": {
+    "$date": "2024-10-17T20:09:29.157Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.72386,
+        23.217593
+      ]
+    },
+    "latitude": 23.217593,
+    "longitude": 77.72386
+  },
+  "violations": {
+    "total": 151,
+    "reported": 119
+  },
+  "challans": {
+    "total": 122,
+    "breakdown": {
+      "Speeding": 16,
+      "Red Light": 1,
+      "No Helmet": 14,
+      "Drunk Driving": 14,
+      "Wrong Way Driving": 11,
+      "No License": 21,
+      "Illegal Parking": 16,
+      "Overloading": 15,
+      "No Registration": 12,
+      "Modified Vehicle": 2
+    },
+    "collected_amount": 128660.39
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 930
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 27
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192643"
+  },
+  "centerId": "TPOW-912",
+  "date": {
+    "$date": "2024-08-23T19:25:36.574Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.997355,
+        22.867751
+      ]
+    },
+    "latitude": 22.867751,
+    "longitude": 88.997355
+  },
+  "violations": {
+    "total": 143,
+    "reported": 93
+  },
+  "challans": {
+    "total": 100,
+    "breakdown": {
+      "Red Light": 13,
+      "No Helmet": 6,
+      "Wrong Way Driving": 20,
+      "No License": 8,
+      "Invalid Insurance": 3,
+      "Lane Violation": 11,
+      "Overloading": 5,
+      "No Registration": 14,
+      "Noise Pollution": 20
+    },
+    "collected_amount": 162013.02
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 325
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 36
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192644"
+  },
+  "centerId": "JUMB-436",
+  "date": {
+    "$date": "2024-09-15T20:05:56.904Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.862115,
+        23.995805
+      ]
+    },
+    "latitude": 23.995805,
+    "longitude": 78.862115
+  },
+  "violations": {
+    "total": 193,
+    "reported": 149
+  },
+  "challans": {
+    "total": 157,
+    "breakdown": {
+      "Red Light": 22,
+      "No Helmet": 6,
+      "No Seatbelt": 0,
+      "Drunk Driving": 10,
+      "No License": 18,
+      "Invalid Insurance": 5,
+      "Phone While Driving": 22,
+      "Illegal Parking": 17,
+      "Lane Violation": 4,
+      "Overloading": 17,
+      "No Registration": 1,
+      "Modified Vehicle": 21,
+      "Noise Pollution": 14
+    },
+    "collected_amount": 185754.15
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 968
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 46
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192645"
+  },
+  "centerId": "OEUB-285",
+  "date": {
+    "$date": "2024-11-23T03:52:22.186Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.941494,
+        23.38023
+      ]
+    },
+    "latitude": 23.38023,
+    "longitude": 78.941494
+  },
+  "violations": {
+    "total": 162,
+    "reported": 122
+  },
+  "challans": {
+    "total": 124,
+    "breakdown": {
+      "Speeding": 17,
+      "Red Light": 19,
+      "No Helmet": 25,
+      "No Seatbelt": 13,
+      "Drunk Driving": 1,
+      "Wrong Way Driving": 9,
+      "No License": 13,
+      "Phone While Driving": 8,
+      "Overloading": 13,
+      "Modified Vehicle": 6
+    },
+    "collected_amount": 167826
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 639
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 37
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192646"
+  },
+  "centerId": "OMNO-311",
+  "date": {
+    "$date": "2024-12-14T07:15:53.279Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.419506,
+        30.435845
+      ]
+    },
+    "latitude": 30.435845,
+    "longitude": 76.419506
+  },
+  "violations": {
+    "total": 132,
+    "reported": 77
+  },
+  "challans": {
+    "total": 83,
+    "breakdown": {
+      "Red Light": 3,
+      "No Helmet": 12,
+      "No License": 7,
+      "Invalid Insurance": 18,
+      "Illegal Parking": 7,
+      "Lane Violation": 11,
+      "Overloading": 5,
+      "No Registration": 10,
+      "Modified Vehicle": 10,
+      "Noise Pollution": 0
+    },
+    "collected_amount": 171330.5
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 328
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 68
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192647"
+  },
+  "centerId": "YDDS-186",
+  "date": {
+    "$date": "2025-01-28T01:09:48.272Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.765752,
+        19.781865
+      ]
+    },
+    "latitude": 19.781865,
+    "longitude": 73.765752
+  },
+  "violations": {
+    "total": 172,
+    "reported": 149
+  },
+  "challans": {
+    "total": 155,
+    "breakdown": {
+      "Speeding": 1,
+      "No Helmet": 24,
+      "No Seatbelt": 4,
+      "Drunk Driving": 25,
+      "Wrong Way Driving": 15,
+      "No License": 15,
+      "Invalid Insurance": 9,
+      "Phone While Driving": 12,
+      "Illegal Parking": 0,
+      "Lane Violation": 16,
+      "Overloading": 0,
+      "No Registration": 8,
+      "Modified Vehicle": 21,
+      "Noise Pollution": 5
+    },
+    "collected_amount": 61999.45
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 267
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 38
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192648"
+  },
+  "centerId": "SWHL-633",
+  "date": {
+    "$date": "2024-10-21T10:01:22.230Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.238977,
+        23.951117
+      ]
+    },
+    "latitude": 23.951117,
+    "longitude": 88.238977
+  },
+  "violations": {
+    "total": 207,
+    "reported": 160
+  },
+  "challans": {
+    "total": 169,
+    "breakdown": {
+      "Speeding": 13,
+      "Red Light": 10,
+      "No Helmet": 21,
+      "No Seatbelt": 25,
+      "Wrong Way Driving": 22,
+      "No License": 13,
+      "Invalid Insurance": 20,
+      "Phone While Driving": 7,
+      "Illegal Parking": 24,
+      "Modified Vehicle": 14
+    },
+    "collected_amount": 134253.94
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 471
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 73
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192649"
+  },
+  "centerId": "HPAM-105",
+  "date": {
+    "$date": "2024-12-14T16:49:02.620Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.385469,
+        13.321212
+      ]
+    },
+    "latitude": 13.321212,
+    "longitude": 77.385469
+  },
+  "violations": {
+    "total": 165,
+    "reported": 117
+  },
+  "challans": {
+    "total": 117,
+    "breakdown": {
+      "Red Light": 2,
+      "No Helmet": 3,
+      "No Seatbelt": 5,
+      "Drunk Driving": 18,
+      "Wrong Way Driving": 22,
+      "No License": 14,
+      "Invalid Insurance": 11,
+      "Phone While Driving": 5,
+      "Illegal Parking": 0,
+      "Overloading": 14,
+      "No Registration": 2,
+      "Modified Vehicle": 7,
+      "Noise Pollution": 14
+    },
+    "collected_amount": 151940.64
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 541
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 56
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19264a"
+  },
+  "centerId": "GANH-748",
+  "date": {
+    "$date": "2024-11-22T20:51:30.888Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.228147,
+        11.571405
+      ]
+    },
+    "latitude": 11.571405,
+    "longitude": 78.228147
+  },
+  "violations": {
+    "total": 194,
+    "reported": 148
+  },
+  "challans": {
+    "total": 153,
+    "breakdown": {
+      "Speeding": 4,
+      "No Seatbelt": 15,
+      "Drunk Driving": 10,
+      "Wrong Way Driving": 22,
+      "No License": 4,
+      "Phone While Driving": 22,
+      "Illegal Parking": 17,
+      "Lane Violation": 12,
+      "Overloading": 24,
+      "Modified Vehicle": 23,
+      "Noise Pollution": 0
+    },
+    "collected_amount": 197903.27
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 691
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 86
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19264b"
+  },
+  "centerId": "YUXH-371",
+  "date": {
+    "$date": "2025-02-17T12:20:50.827Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.821258,
+        23.01478
+      ]
+    },
+    "latitude": 23.01478,
+    "longitude": 78.821258
+  },
+  "violations": {
+    "total": 132,
+    "reported": 117
+  },
+  "challans": {
+    "total": 126,
+    "breakdown": {
+      "Red Light": 20,
+      "No Helmet": 6,
+      "Drunk Driving": 0,
+      "No License": 9,
+      "Invalid Insurance": 20,
+      "Phone While Driving": 6,
+      "Illegal Parking": 14,
+      "Lane Violation": 21,
+      "Overloading": 5,
+      "No Registration": 12,
+      "Modified Vehicle": 1,
+      "Noise Pollution": 12
+    },
+    "collected_amount": 127828.02
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 671
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 83
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19264c"
+  },
+  "centerId": "OFHM-949",
+  "date": {
+    "$date": "2025-01-23T16:27:11.478Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        75.312059,
+        28.606725
+      ]
+    },
+    "latitude": 28.606725,
+    "longitude": 75.312059
+  },
+  "violations": {
+    "total": 171,
+    "reported": 137
+  },
+  "challans": {
+    "total": 145,
+    "breakdown": {
+      "Speeding": 24,
+      "No Helmet": 5,
+      "No Seatbelt": 17,
+      "Drunk Driving": 9,
+      "Wrong Way Driving": 23,
+      "No License": 23,
+      "Phone While Driving": 5,
+      "Illegal Parking": 5,
+      "Lane Violation": 2,
+      "No Registration": 20,
+      "Noise Pollution": 12
+    },
+    "collected_amount": 108274.24
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 902
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 84
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19264d"
+  },
+  "centerId": "BBUO-516",
+  "date": {
+    "$date": "2024-10-27T17:28:22.850Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.787066,
+        20.329514
+      ]
+    },
+    "latitude": 20.329514,
+    "longitude": 73.787066
+  },
+  "violations": {
+    "total": 193,
+    "reported": 171
+  },
+  "challans": {
+    "total": 172,
+    "breakdown": {
+      "Speeding": 22,
+      "Red Light": 16,
+      "No Helmet": 15,
+      "No Seatbelt": 24,
+      "Drunk Driving": 18,
+      "Wrong Way Driving": 13,
+      "No License": 16,
+      "Invalid Insurance": 12,
+      "Illegal Parking": 9,
+      "Overloading": 23,
+      "No Registration": 4
+    },
+    "collected_amount": 55614.97
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 404
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 43
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19264e"
+  },
+  "centerId": "WPPO-714",
+  "date": {
+    "$date": "2024-11-05T03:40:07.973Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.624119,
+        23.029461
+      ]
+    },
+    "latitude": 23.029461,
+    "longitude": 77.624119
+  },
+  "violations": {
+    "total": 226,
+    "reported": 185
+  },
+  "challans": {
+    "total": 187,
+    "breakdown": {
+      "Speeding": 13,
+      "No Helmet": 8,
+      "No Seatbelt": 13,
+      "Drunk Driving": 9,
+      "Wrong Way Driving": 21,
+      "Invalid Insurance": 23,
+      "Phone While Driving": 23,
+      "Illegal Parking": 8,
+      "Lane Violation": 17,
+      "Overloading": 12,
+      "Modified Vehicle": 17,
+      "Noise Pollution": 23
+    },
+    "collected_amount": 75440.92
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 493
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 84
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19264f"
+  },
+  "centerId": "YEUL-683",
+  "date": {
+    "$date": "2024-10-25T05:33:00.177Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.631055,
+        13.024936
+      ]
+    },
+    "latitude": 13.024936,
+    "longitude": 76.631055
+  },
+  "violations": {
+    "total": 159,
+    "reported": 155
+  },
+  "challans": {
+    "total": 159,
+    "breakdown": {
+      "Speeding": 18,
+      "No Helmet": 1,
+      "No Seatbelt": 8,
+      "Drunk Driving": 22,
+      "Wrong Way Driving": 0,
+      "No License": 19,
+      "Invalid Insurance": 4,
+      "Phone While Driving": 15,
+      "Illegal Parking": 24,
+      "Overloading": 16,
+      "No Registration": 6,
+      "Modified Vehicle": 2,
+      "Noise Pollution": 24
+    },
+    "collected_amount": 138467.18
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 934
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 31
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192650"
+  },
+  "centerId": "ZNUI-450",
+  "date": {
+    "$date": "2024-10-09T20:37:04.221Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.446244,
+        22.492009
+      ]
+    },
+    "latitude": 22.492009,
+    "longitude": 87.446244
+  },
+  "violations": {
+    "total": 134,
+    "reported": 120
+  },
+  "challans": {
+    "total": 125,
+    "breakdown": {
+      "Speeding": 4,
+      "Red Light": 3,
+      "No Seatbelt": 15,
+      "Wrong Way Driving": 25,
+      "No License": 0,
+      "Invalid Insurance": 25,
+      "Illegal Parking": 8,
+      "Lane Violation": 3,
+      "No Registration": 24,
+      "Modified Vehicle": 15,
+      "Noise Pollution": 3
+    },
+    "collected_amount": 180126
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 812
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 26
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192651"
+  },
+  "centerId": "RNNS-809",
+  "date": {
+    "$date": "2025-02-19T07:25:01.047Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.757071,
+        13.126383
+      ]
+    },
+    "latitude": 13.126383,
+    "longitude": 78.757071
+  },
+  "violations": {
+    "total": 146,
+    "reported": 124
+  },
+  "challans": {
+    "total": 124,
+    "breakdown": {
+      "Red Light": 11,
+      "No Helmet": 10,
+      "No License": 6,
+      "Invalid Insurance": 21,
+      "Phone While Driving": 11,
+      "Illegal Parking": 2,
+      "Overloading": 22,
+      "No Registration": 18,
+      "Modified Vehicle": 23
+    },
+    "collected_amount": 134170.54
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 242
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 37
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192652"
+  },
+  "centerId": "AYOC-272",
+  "date": {
+    "$date": "2024-12-05T11:10:19.667Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.328464,
+        19.284746
+      ]
+    },
+    "latitude": 19.284746,
+    "longitude": 73.328464
+  },
+  "violations": {
+    "total": 189,
+    "reported": 147
+  },
+  "challans": {
+    "total": 154,
+    "breakdown": {
+      "Speeding": 23,
+      "Red Light": 10,
+      "No Helmet": 15,
+      "Drunk Driving": 24,
+      "Wrong Way Driving": 11,
+      "Invalid Insurance": 12,
+      "Phone While Driving": 21,
+      "Lane Violation": 7,
+      "Overloading": 1,
+      "Modified Vehicle": 5,
+      "Noise Pollution": 25
+    },
+    "collected_amount": 84754.33
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 370
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 50
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192653"
+  },
+  "centerId": "QCHQ-198",
+  "date": {
+    "$date": "2024-09-01T07:02:31.092Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        75.931661,
+        30.886874
+      ]
+    },
+    "latitude": 30.886874,
+    "longitude": 75.931661
+  },
+  "violations": {
+    "total": 187,
+    "reported": 147
+  },
+  "challans": {
+    "total": 154,
+    "breakdown": {
+      "Speeding": 24,
+      "Red Light": 4,
+      "No Helmet": 4,
+      "No Seatbelt": 11,
+      "Drunk Driving": 9,
+      "No License": 20,
+      "Invalid Insurance": 19,
+      "Phone While Driving": 22,
+      "Illegal Parking": 6,
+      "Overloading": 8,
+      "No Registration": 16,
+      "Noise Pollution": 11
+    },
+    "collected_amount": 140606.89
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 506
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 35
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192654"
+  },
+  "centerId": "BRXY-739",
+  "date": {
+    "$date": "2024-11-20T01:56:45.558Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.8899,
+        30.528781
+      ]
+    },
+    "latitude": 30.528781,
+    "longitude": 77.8899
+  },
+  "violations": {
+    "total": 201,
+    "reported": 170
+  },
+  "challans": {
+    "total": 173,
+    "breakdown": {
+      "Speeding": 21,
+      "Red Light": 24,
+      "No Helmet": 16,
+      "Drunk Driving": 12,
+      "Wrong Way Driving": 18,
+      "No License": 17,
+      "Invalid Insurance": 12,
+      "Phone While Driving": 14,
+      "Lane Violation": 9,
+      "Overloading": 23,
+      "No Registration": 3,
+      "Noise Pollution": 4
+    },
+    "collected_amount": 126648.09
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 570
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 58
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192655"
+  },
+  "centerId": "JEAE-818",
+  "date": {
+    "$date": "2024-12-25T19:04:57.452Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.757262,
+        19.72195
+      ]
+    },
+    "latitude": 19.72195,
+    "longitude": 73.757262
+  },
+  "violations": {
+    "total": 156,
+    "reported": 133
+  },
+  "challans": {
+    "total": 136,
+    "breakdown": {
+      "Speeding": 25,
+      "No Seatbelt": 16,
+      "Drunk Driving": 1,
+      "Wrong Way Driving": 8,
+      "No License": 4,
+      "Invalid Insurance": 25,
+      "Lane Violation": 21,
+      "No Registration": 0,
+      "Modified Vehicle": 11,
+      "Noise Pollution": 25
+    },
+    "collected_amount": 192910.76
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 211
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 80
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192656"
+  },
+  "centerId": "GORG-515",
+  "date": {
+    "$date": "2025-01-08T01:58:30.036Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.589494,
+        22.447864
+      ]
+    },
+    "latitude": 22.447864,
+    "longitude": 88.589494
+  },
+  "violations": {
+    "total": 168,
+    "reported": 119
+  },
+  "challans": {
+    "total": 126,
+    "breakdown": {
+      "Red Light": 5,
+      "No Seatbelt": 11,
+      "Wrong Way Driving": 1,
+      "No License": 16,
+      "Invalid Insurance": 3,
+      "Phone While Driving": 20,
+      "Illegal Parking": 25,
+      "Lane Violation": 12,
+      "Overloading": 23,
+      "Noise Pollution": 10
+    },
+    "collected_amount": 184630.52
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 695
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 88
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192657"
+  },
+  "centerId": "FUVC-709",
+  "date": {
+    "$date": "2025-02-10T02:22:19.710Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.806169,
+        19.466194
+      ]
+    },
+    "latitude": 19.466194,
+    "longitude": 73.806169
+  },
+  "violations": {
+    "total": 169,
+    "reported": 120
+  },
+  "challans": {
+    "total": 126,
+    "breakdown": {
+      "Speeding": 14,
+      "Red Light": 24,
+      "No Helmet": 1,
+      "Drunk Driving": 13,
+      "Wrong Way Driving": 1,
+      "Invalid Insurance": 17,
+      "Illegal Parking": 12,
+      "Lane Violation": 6,
+      "No Registration": 18,
+      "Modified Vehicle": 9,
+      "Noise Pollution": 11
+    },
+    "collected_amount": 154029.52
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 496
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 62
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192658"
+  },
+  "centerId": "OYMC-770",
+  "date": {
+    "$date": "2024-08-27T02:17:19.396Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.929516,
+        23.707145
+      ]
+    },
+    "latitude": 23.707145,
+    "longitude": 77.929516
+  },
+  "violations": {
+    "total": 115,
+    "reported": 107
+  },
+  "challans": {
+    "total": 115,
+    "breakdown": {
+      "Red Light": 10,
+      "Wrong Way Driving": 16,
+      "No License": 21,
+      "Phone While Driving": 16,
+      "Illegal Parking": 9,
+      "No Registration": 22,
+      "Modified Vehicle": 7,
+      "Noise Pollution": 14
+    },
+    "collected_amount": 160717.9
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 807
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 22
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192659"
+  },
+  "centerId": "STYM-164",
+  "date": {
+    "$date": "2025-01-23T14:20:53.916Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.319014,
+        13.94056
+      ]
+    },
+    "latitude": 13.94056,
+    "longitude": 77.319014
+  },
+  "violations": {
+    "total": 153,
+    "reported": 146
+  },
+  "challans": {
+    "total": 148,
+    "breakdown": {
+      "Red Light": 7,
+      "No Seatbelt": 21,
+      "Drunk Driving": 4,
+      "No License": 19,
+      "Invalid Insurance": 18,
+      "Phone While Driving": 12,
+      "Lane Violation": 15,
+      "Overloading": 15,
+      "No Registration": 17,
+      "Noise Pollution": 20
+    },
+    "collected_amount": 154378.55
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 741
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 92
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19265a"
+  },
+  "centerId": "ZVTI-893",
+  "date": {
+    "$date": "2024-11-22T12:48:16.486Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.421008,
+        13.688453
+      ]
+    },
+    "latitude": 13.688453,
+    "longitude": 76.421008
+  },
+  "violations": {
+    "total": 244,
+    "reported": 191
+  },
+  "challans": {
+    "total": 194,
+    "breakdown": {
+      "Speeding": 22,
+      "Red Light": 21,
+      "No Helmet": 16,
+      "No Seatbelt": 24,
+      "Drunk Driving": 25,
+      "Invalid Insurance": 21,
+      "Phone While Driving": 24,
+      "Illegal Parking": 5,
+      "No Registration": 22,
+      "Modified Vehicle": 14
+    },
+    "collected_amount": 78399.29
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 841
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 41
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19265b"
+  },
+  "centerId": "UIMM-307",
+  "date": {
+    "$date": "2025-01-27T16:01:59.505Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.411873,
+        20.874791
+      ]
+    },
+    "latitude": 20.874791,
+    "longitude": 72.411873
+  },
+  "violations": {
+    "total": 180,
+    "reported": 162
+  },
+  "challans": {
+    "total": 163,
+    "breakdown": {
+      "Speeding": 8,
+      "Red Light": 18,
+      "No Helmet": 10,
+      "No Seatbelt": 13,
+      "Drunk Driving": 23,
+      "Wrong Way Driving": 1,
+      "No License": 13,
+      "Phone While Driving": 11,
+      "Illegal Parking": 11,
+      "Overloading": 12,
+      "No Registration": 8,
+      "Modified Vehicle": 21,
+      "Noise Pollution": 14
+    },
+    "collected_amount": 100659.18
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 909
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 79
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19265c"
+  },
+  "centerId": "LDCL-174",
+  "date": {
+    "$date": "2024-10-27T11:33:41.003Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.166373,
+        23.346337
+      ]
+    },
+    "latitude": 23.346337,
+    "longitude": 88.166373
+  },
+  "violations": {
+    "total": 138,
+    "reported": 104
+  },
+  "challans": {
+    "total": 106,
+    "breakdown": {
+      "Red Light": 18,
+      "No Seatbelt": 9,
+      "Invalid Insurance": 22,
+      "Phone While Driving": 3,
+      "Illegal Parking": 8,
+      "Lane Violation": 24,
+      "Overloading": 0,
+      "Modified Vehicle": 17,
+      "Noise Pollution": 5
+    },
+    "collected_amount": 67735.17
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 545
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 33
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19265d"
+  },
+  "centerId": "JZKW-269",
+  "date": {
+    "$date": "2024-11-18T14:30:38.415Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.967495,
+        23.111393
+      ]
+    },
+    "latitude": 23.111393,
+    "longitude": 78.967495
+  },
+  "violations": {
+    "total": 131,
+    "reported": 102
+  },
+  "challans": {
+    "total": 108,
+    "breakdown": {
+      "Speeding": 0,
+      "Red Light": 24,
+      "No Helmet": 9,
+      "No Seatbelt": 0,
+      "Drunk Driving": 18,
+      "Wrong Way Driving": 2,
+      "No License": 1,
+      "Invalid Insurance": 13,
+      "Phone While Driving": 3,
+      "Lane Violation": 5,
+      "Overloading": 2,
+      "Modified Vehicle": 15,
+      "Noise Pollution": 16
+    },
+    "collected_amount": 110328.16
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 233
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 51
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19265e"
+  },
+  "centerId": "YROY-197",
+  "date": {
+    "$date": "2024-10-01T21:52:05.853Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.531909,
+        22.081223
+      ]
+    },
+    "latitude": 22.081223,
+    "longitude": 87.531909
+  },
+  "violations": {
+    "total": 152,
+    "reported": 122
+  },
+  "challans": {
+    "total": 126,
+    "breakdown": {
+      "Speeding": 18,
+      "Red Light": 9,
+      "No Helmet": 5,
+      "Drunk Driving": 20,
+      "No License": 10,
+      "Invalid Insurance": 18,
+      "Phone While Driving": 6,
+      "Lane Violation": 12,
+      "Modified Vehicle": 20,
+      "Noise Pollution": 8
+    },
+    "collected_amount": 105761.08
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 322
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 87
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19265f"
+  },
+  "centerId": "PETC-789",
+  "date": {
+    "$date": "2024-10-29T18:59:38.794Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.326735,
+        22.951422
+      ]
+    },
+    "latitude": 22.951422,
+    "longitude": 87.326735
+  },
+  "violations": {
+    "total": 159,
+    "reported": 119
+  },
+  "challans": {
+    "total": 125,
+    "breakdown": {
+      "Speeding": 13,
+      "Red Light": 5,
+      "No Helmet": 21,
+      "Drunk Driving": 13,
+      "Phone While Driving": 6,
+      "Lane Violation": 18,
+      "Overloading": 9,
+      "No Registration": 14,
+      "Modified Vehicle": 11,
+      "Noise Pollution": 15
+    },
+    "collected_amount": 148541.79
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 440
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 64
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192660"
+  },
+  "centerId": "HFTH-149",
+  "date": {
+    "$date": "2024-10-07T00:52:30.066Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.042978,
+        30.915023
+      ]
+    },
+    "latitude": 30.915023,
+    "longitude": 77.042978
+  },
+  "violations": {
+    "total": 181,
+    "reported": 149
+  },
+  "challans": {
+    "total": 159,
+    "breakdown": {
+      "Speeding": 17,
+      "Drunk Driving": 19,
+      "No License": 1,
+      "Invalid Insurance": 8,
+      "Phone While Driving": 24,
+      "Illegal Parking": 7,
+      "Lane Violation": 22,
+      "Overloading": 16,
+      "Modified Vehicle": 20,
+      "Noise Pollution": 25
+    },
+    "collected_amount": 173095.33
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 680
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 43
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192661"
+  },
+  "centerId": "ITFE-245",
+  "date": {
+    "$date": "2024-11-08T07:03:49.542Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.687098,
+        23.773427
+      ]
+    },
+    "latitude": 23.773427,
+    "longitude": 87.687098
+  },
+  "violations": {
+    "total": 152,
+    "reported": 115
+  },
+  "challans": {
+    "total": 117,
+    "breakdown": {
+      "Speeding": 21,
+      "No Helmet": 13,
+      "Drunk Driving": 0,
+      "Phone While Driving": 3,
+      "Lane Violation": 25,
+      "Overloading": 12,
+      "No Registration": 24,
+      "Noise Pollution": 19
+    },
+    "collected_amount": 74419.34
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 346
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 58
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192662"
+  },
+  "centerId": "GGSF-286",
+  "date": {
+    "$date": "2025-01-22T16:15:16.425Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.914737,
+        29.163297
+      ]
+    },
+    "latitude": 29.163297,
+    "longitude": 76.914737
+  },
+  "violations": {
+    "total": 139,
+    "reported": 113
+  },
+  "challans": {
+    "total": 122,
+    "breakdown": {
+      "Speeding": 12,
+      "Drunk Driving": 19,
+      "Wrong Way Driving": 10,
+      "No License": 24,
+      "Invalid Insurance": 6,
+      "Lane Violation": 25,
+      "No Registration": 1,
+      "Modified Vehicle": 2,
+      "Noise Pollution": 23
+    },
+    "collected_amount": 94852.4
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 428
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 55
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192663"
+  },
+  "centerId": "MRTF-736",
+  "date": {
+    "$date": "2025-01-10T10:37:03.881Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.639963,
+        20.957998
+      ]
+    },
+    "latitude": 20.957998,
+    "longitude": 72.639963
+  },
+  "violations": {
+    "total": 232,
+    "reported": 190
+  },
+  "challans": {
+    "total": 190,
+    "breakdown": {
+      "Speeding": 6,
+      "Red Light": 25,
+      "Drunk Driving": 18,
+      "Wrong Way Driving": 10,
+      "No License": 21,
+      "Invalid Insurance": 24,
+      "Phone While Driving": 22,
+      "Illegal Parking": 0,
+      "Lane Violation": 17,
+      "Overloading": 23,
+      "No Registration": 19,
+      "Modified Vehicle": 5
+    },
+    "collected_amount": 79690.85
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 660
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 58
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192664"
+  },
+  "centerId": "RGQP-293",
+  "date": {
+    "$date": "2025-02-22T02:21:09.149Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.758698,
+        23.075755
+      ]
+    },
+    "latitude": 23.075755,
+    "longitude": 87.758698
+  },
+  "violations": {
+    "total": 161,
+    "reported": 123
+  },
+  "challans": {
+    "total": 124,
+    "breakdown": {
+      "Speeding": 15,
+      "Red Light": 7,
+      "No Seatbelt": 5,
+      "Drunk Driving": 14,
+      "Wrong Way Driving": 5,
+      "Invalid Insurance": 7,
+      "Phone While Driving": 14,
+      "Illegal Parking": 21,
+      "Overloading": 5,
+      "Modified Vehicle": 23,
+      "Noise Pollution": 8
+    },
+    "collected_amount": 133007.61
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 832
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 23
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192665"
+  },
+  "centerId": "DNKZ-491",
+  "date": {
+    "$date": "2025-01-05T20:53:20.325Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.815685,
+        13.249978
+      ]
+    },
+    "latitude": 13.249978,
+    "longitude": 76.815685
+  },
+  "violations": {
+    "total": 224,
+    "reported": 177
+  },
+  "challans": {
+    "total": 178,
+    "breakdown": {
+      "Speeding": 10,
+      "Red Light": 20,
+      "No Seatbelt": 4,
+      "Drunk Driving": 24,
+      "Wrong Way Driving": 23,
+      "No License": 3,
+      "Invalid Insurance": 11,
+      "Phone While Driving": 11,
+      "Illegal Parking": 21,
+      "Lane Violation": 16,
+      "Overloading": 25,
+      "No Registration": 10
+    },
+    "collected_amount": 163859.25
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 202
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 65
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192666"
+  },
+  "centerId": "BVIB-929",
+  "date": {
+    "$date": "2025-02-20T11:40:37.603Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.065165,
+        23.105564
+      ]
+    },
+    "latitude": 23.105564,
+    "longitude": 87.065165
+  },
+  "violations": {
+    "total": 173,
+    "reported": 138
+  },
+  "challans": {
+    "total": 142,
+    "breakdown": {
+      "Speeding": 22,
+      "Red Light": 2,
+      "No Helmet": 7,
+      "No Seatbelt": 21,
+      "Drunk Driving": 25,
+      "Wrong Way Driving": 18,
+      "Invalid Insurance": 4,
+      "Phone While Driving": 8,
+      "Illegal Parking": 9,
+      "Lane Violation": 16,
+      "No Registration": 10
+    },
+    "collected_amount": 77668.04
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 613
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 67
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192667"
+  },
+  "centerId": "ROBJ-558",
+  "date": {
+    "$date": "2025-01-25T12:41:43.447Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.755623,
+        24.489681
+      ]
+    },
+    "latitude": 24.489681,
+    "longitude": 77.755623
+  },
+  "violations": {
+    "total": 135,
+    "reported": 113
+  },
+  "challans": {
+    "total": 120,
+    "breakdown": {
+      "No Helmet": 2,
+      "No Seatbelt": 2,
+      "Drunk Driving": 25,
+      "No License": 20,
+      "Invalid Insurance": 16,
+      "Phone While Driving": 0,
+      "Illegal Parking": 2,
+      "Overloading": 20,
+      "No Registration": 14,
+      "Noise Pollution": 19
+    },
+    "collected_amount": 199275.28
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 807
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 66
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192668"
+  },
+  "centerId": "QMZX-610",
+  "date": {
+    "$date": "2025-02-15T21:04:31.684Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.311501,
+        29.456486
+      ]
+    },
+    "latitude": 29.456486,
+    "longitude": 77.311501
+  },
+  "violations": {
+    "total": 140,
+    "reported": 118
+  },
+  "challans": {
+    "total": 126,
+    "breakdown": {
+      "Red Light": 8,
+      "No Helmet": 16,
+      "No Seatbelt": 6,
+      "Wrong Way Driving": 13,
+      "No License": 15,
+      "Invalid Insurance": 2,
+      "Phone While Driving": 18,
+      "Illegal Parking": 2,
+      "Lane Violation": 19,
+      "Overloading": 24,
+      "Modified Vehicle": 3
+    },
+    "collected_amount": 163425.5
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 339
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 20
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192669"
+  },
+  "centerId": "MFRR-711",
+  "date": {
+    "$date": "2024-10-04T12:54:42.738Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.73116,
+        22.304096
+      ]
+    },
+    "latitude": 22.304096,
+    "longitude": 88.73116
+  },
+  "violations": {
+    "total": 149,
+    "reported": 145
+  },
+  "challans": {
+    "total": 146,
+    "breakdown": {
+      "Speeding": 3,
+      "No Helmet": 8,
+      "No Seatbelt": 10,
+      "Drunk Driving": 25,
+      "Wrong Way Driving": 19,
+      "No License": 23,
+      "Invalid Insurance": 6,
+      "Phone While Driving": 12,
+      "Illegal Parking": 4,
+      "Overloading": 18,
+      "No Registration": 2,
+      "Noise Pollution": 16
+    },
+    "collected_amount": 63154.05
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 735
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": false,
+  "enforcement_officers": 76
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19266a"
+  },
+  "centerId": "ILFG-771",
+  "date": {
+    "$date": "2024-10-27T16:44:06.530Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        75.115462,
+        29.115065
+      ]
+    },
+    "latitude": 29.115065,
+    "longitude": 75.115462
+  },
+  "violations": {
+    "total": 161,
+    "reported": 145
+  },
+  "challans": {
+    "total": 146,
+    "breakdown": {
+      "Speeding": 6,
+      "Red Light": 18,
+      "Wrong Way Driving": 15,
+      "No License": 5,
+      "Invalid Insurance": 24,
+      "Phone While Driving": 19,
+      "Illegal Parking": 8,
+      "Lane Violation": 15,
+      "Overloading": 24,
+      "Modified Vehicle": 12
+    },
+    "collected_amount": 103818.16
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 932
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 51
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19266b"
+  },
+  "centerId": "IPCY-335",
+  "date": {
+    "$date": "2024-11-08T15:26:01.787Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.205445,
+        23.769163
+      ]
+    },
+    "latitude": 23.769163,
+    "longitude": 78.205445
+  },
+  "violations": {
+    "total": 124,
+    "reported": 97
+  },
+  "challans": {
+    "total": 105,
+    "breakdown": {
+      "Speeding": 6,
+      "No Helmet": 12,
+      "Drunk Driving": 5,
+      "Wrong Way Driving": 13,
+      "No License": 12,
+      "Invalid Insurance": 21,
+      "Illegal Parking": 16,
+      "Lane Violation": 11,
+      "Overloading": 9,
+      "No Registration": 0
+    },
+    "collected_amount": 198398.09
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 774
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 52
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19266c"
+  },
+  "centerId": "CHVR-487",
+  "date": {
+    "$date": "2025-01-24T01:39:44.199Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.836702,
+        19.90254
+      ]
+    },
+    "latitude": 19.90254,
+    "longitude": 73.836702
+  },
+  "violations": {
+    "total": 165,
+    "reported": 112
+  },
+  "challans": {
+    "total": 117,
+    "breakdown": {
+      "Speeding": 1,
+      "Red Light": 21,
+      "No Helmet": 8,
+      "Drunk Driving": 13,
+      "Wrong Way Driving": 5,
+      "No License": 9,
+      "Illegal Parking": 3,
+      "Lane Violation": 16,
+      "Overloading": 6,
+      "No Registration": 0,
+      "Modified Vehicle": 10,
+      "Noise Pollution": 25
+    },
+    "collected_amount": 84085.26
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 258
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 80
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19266d"
+  },
+  "centerId": "BVBX-148",
+  "date": {
+    "$date": "2024-10-08T07:26:00.045Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.432144,
+        23.29317
+      ]
+    },
+    "latitude": 23.29317,
+    "longitude": 78.432144
+  },
+  "violations": {
+    "total": 138,
+    "reported": 111
+  },
+  "challans": {
+    "total": 121,
+    "breakdown": {
+      "Speeding": 12,
+      "Red Light": 13,
+      "No Helmet": 15,
+      "No Seatbelt": 1,
+      "Drunk Driving": 1,
+      "Wrong Way Driving": 1,
+      "No License": 21,
+      "Illegal Parking": 17,
+      "Overloading": 5,
+      "No Registration": 3,
+      "Modified Vehicle": 15,
+      "Noise Pollution": 17
+    },
+    "collected_amount": 142210.59
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 321
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 27
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19266e"
+  },
+  "centerId": "BAJO-206",
+  "date": {
+    "$date": "2025-02-03T05:19:57.886Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.241221,
+        23.336809
+      ]
+    },
+    "latitude": 23.336809,
+    "longitude": 78.241221
+  },
+  "violations": {
+    "total": 89,
+    "reported": 85
+  },
+  "challans": {
+    "total": 87,
+    "breakdown": {
+      "No Helmet": 1,
+      "Wrong Way Driving": 2,
+      "No License": 8,
+      "Phone While Driving": 22,
+      "Lane Violation": 19,
+      "Overloading": 19,
+      "No Registration": 16
+    },
+    "collected_amount": 105580.75
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 394
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 80
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19266f"
+  },
+  "centerId": "ZACB-460",
+  "date": {
+    "$date": "2024-09-21T22:03:52.093Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 3,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.492472,
+        12.25764
+      ]
+    },
+    "latitude": 12.25764,
+    "longitude": 78.492472
+  },
+  "violations": {
+    "total": 181,
+    "reported": 150
+  },
+  "challans": {
+    "total": 153,
+    "breakdown": {
+      "Speeding": 17,
+      "Red Light": 17,
+      "No Helmet": 0,
+      "No Seatbelt": 15,
+      "Drunk Driving": 25,
+      "Wrong Way Driving": 2,
+      "No License": 10,
+      "Invalid Insurance": 18,
+      "Phone While Driving": 11,
+      "Illegal Parking": 5,
+      "Lane Violation": 2,
+      "No Registration": 17,
+      "Modified Vehicle": 14
+    },
+    "collected_amount": 110866.61
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 474
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 71
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192670"
+  },
+  "centerId": "HZZV-270",
+  "date": {
+    "$date": "2025-02-22T08:27:44.817Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.64819,
+        20.726905
+      ]
+    },
+    "latitude": 20.726905,
+    "longitude": 72.64819
+  },
+  "violations": {
+    "total": 190,
+    "reported": 167
+  },
+  "challans": {
+    "total": 169,
+    "breakdown": {
+      "Red Light": 9,
+      "No Helmet": 12,
+      "No Seatbelt": 5,
+      "Drunk Driving": 12,
+      "Wrong Way Driving": 3,
+      "No License": 25,
+      "Invalid Insurance": 10,
+      "Phone While Driving": 8,
+      "Lane Violation": 15,
+      "Overloading": 18,
+      "No Registration": 17,
+      "Modified Vehicle": 20,
+      "Noise Pollution": 15
+    },
+    "collected_amount": 126825.35
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 856
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 81
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192671"
+  },
+  "centerId": "YWKJ-277",
+  "date": {
+    "$date": "2025-01-15T22:37:10.966Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.469949,
+        23.776223
+      ]
+    },
+    "latitude": 23.776223,
+    "longitude": 77.469949
+  },
+  "violations": {
+    "total": 167,
+    "reported": 126
+  },
+  "challans": {
+    "total": 130,
+    "breakdown": {
+      "Red Light": 4,
+      "No Helmet": 5,
+      "Drunk Driving": 14,
+      "No License": 18,
+      "Invalid Insurance": 8,
+      "Phone While Driving": 18,
+      "Illegal Parking": 4,
+      "Lane Violation": 13,
+      "No Registration": 25,
+      "Modified Vehicle": 12,
+      "Noise Pollution": 9
+    },
+    "collected_amount": 199890.29
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 627
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": false,
+  "enforcement_officers": 66
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192672"
+  },
+  "centerId": "ANAQ-531",
+  "date": {
+    "$date": "2024-11-25T06:29:40.532Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.829566,
+        19.992121
+      ]
+    },
+    "latitude": 19.992121,
+    "longitude": 73.829566
+  },
+  "violations": {
+    "total": 164,
+    "reported": 139
+  },
+  "challans": {
+    "total": 149,
+    "breakdown": {
+      "Speeding": 22,
+      "Red Light": 17,
+      "No Helmet": 12,
+      "No Seatbelt": 3,
+      "Drunk Driving": 4,
+      "No License": 3,
+      "Phone While Driving": 18,
+      "Illegal Parking": 22,
+      "Overloading": 25,
+      "No Registration": 15,
+      "Noise Pollution": 8
+    },
+    "collected_amount": 173620.59
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 516
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 99
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192673"
+  },
+  "centerId": "KLMR-492",
+  "date": {
+    "$date": "2024-12-06T18:34:28.620Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.088556,
+        23.01634
+      ]
+    },
+    "latitude": 23.01634,
+    "longitude": 78.088556
+  },
+  "violations": {
+    "total": 203,
+    "reported": 189
+  },
+  "challans": {
+    "total": 190,
+    "breakdown": {
+      "Speeding": 17,
+      "Red Light": 18,
+      "No Helmet": 24,
+      "No Seatbelt": 25,
+      "No License": 6,
+      "Invalid Insurance": 18,
+      "Phone While Driving": 12,
+      "Illegal Parking": 8,
+      "Lane Violation": 14,
+      "Overloading": 14,
+      "No Registration": 4,
+      "Modified Vehicle": 25,
+      "Noise Pollution": 5
+    },
+    "collected_amount": 164547.48
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 827
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 87
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192674"
+  },
+  "centerId": "BWVC-424",
+  "date": {
+    "$date": "2024-12-30T20:39:44.527Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.749407,
+        23.669733
+      ]
+    },
+    "latitude": 23.669733,
+    "longitude": 87.749407
+  },
+  "violations": {
+    "total": 140,
+    "reported": 96
+  },
+  "challans": {
+    "total": 100,
+    "breakdown": {
+      "Red Light": 22,
+      "No Helmet": 4,
+      "No Seatbelt": 8,
+      "No License": 20,
+      "Invalid Insurance": 14,
+      "Phone While Driving": 8,
+      "Illegal Parking": 24
+    },
+    "collected_amount": 116336.41
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 788
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 80
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192675"
+  },
+  "centerId": "AFUM-183",
+  "date": {
+    "$date": "2025-01-28T18:22:55.153Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.040938,
+        20.711612
+      ]
+    },
+    "latitude": 20.711612,
+    "longitude": 72.040938
+  },
+  "violations": {
+    "total": 189,
+    "reported": 172
+  },
+  "challans": {
+    "total": 181,
+    "breakdown": {
+      "Speeding": 8,
+      "Red Light": 23,
+      "No Helmet": 24,
+      "No Seatbelt": 23,
+      "Drunk Driving": 18,
+      "Wrong Way Driving": 1,
+      "Invalid Insurance": 0,
+      "Phone While Driving": 21,
+      "Illegal Parking": 6,
+      "Lane Violation": 8,
+      "Modified Vehicle": 25,
+      "Noise Pollution": 24
+    },
+    "collected_amount": 177915.98
+  },
+  "accidents": {
+    "today": 0,
+    "overall": 546
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 81
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192676"
+  },
+  "centerId": "TPPH-101",
+  "date": {
+    "$date": "2025-01-26T04:08:00.973Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.302979,
+        30.830996
+      ]
+    },
+    "latitude": 30.830996,
+    "longitude": 76.302979
+  },
+  "violations": {
+    "total": 157,
+    "reported": 128
+  },
+  "challans": {
+    "total": 128,
+    "breakdown": {
+      "Red Light": 19,
+      "No Helmet": 14,
+      "No Seatbelt": 8,
+      "Drunk Driving": 0,
+      "Invalid Insurance": 21,
+      "Illegal Parking": 19,
+      "Lane Violation": 6,
+      "No Registration": 2,
+      "Modified Vehicle": 25,
+      "Noise Pollution": 14
+    },
+    "collected_amount": 159245.12
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 674
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 100
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192677"
+  },
+  "centerId": "GBWR-812",
+  "date": {
+    "$date": "2024-10-06T06:51:55.928Z"
+  },
+  "location": {
+    "zone": "South",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        77.673207,
+        11.005333
+      ]
+    },
+    "latitude": 11.005333,
+    "longitude": 77.673207
+  },
+  "violations": {
+    "total": 141,
+    "reported": 116
+  },
+  "challans": {
+    "total": 122,
+    "breakdown": {
+      "Speeding": 0,
+      "Red Light": 0,
+      "No Helmet": 2,
+      "No Seatbelt": 1,
+      "Drunk Driving": 6,
+      "No License": 24,
+      "Invalid Insurance": 4,
+      "Phone While Driving": 8,
+      "Illegal Parking": 25,
+      "Overloading": 12,
+      "No Registration": 22,
+      "Noise Pollution": 18
+    },
+    "collected_amount": 79151.9
+  },
+  "accidents": {
+    "today": 1,
+    "overall": 362
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 94
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192678"
+  },
+  "centerId": "ZFMU-742",
+  "date": {
+    "$date": "2025-01-30T03:07:55.949Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 4,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.012963,
+        23.954634
+      ]
+    },
+    "latitude": 23.954634,
+    "longitude": 78.012963
+  },
+  "violations": {
+    "total": 207,
+    "reported": 152
+  },
+  "challans": {
+    "total": 157,
+    "breakdown": {
+      "Speeding": 22,
+      "Red Light": 13,
+      "No Helmet": 13,
+      "No Seatbelt": 4,
+      "Drunk Driving": 11,
+      "Wrong Way Driving": 6,
+      "Invalid Insurance": 12,
+      "Phone While Driving": 25,
+      "Illegal Parking": 25,
+      "Lane Violation": 2,
+      "Overloading": 1,
+      "No Registration": 5,
+      "Modified Vehicle": 3,
+      "Noise Pollution": 15
+    },
+    "collected_amount": 145403.33
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 572
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": true,
+  "enforcement_officers": 99
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c192679"
+  },
+  "centerId": "TBJT-351",
+  "date": {
+    "$date": "2025-01-19T02:10:23.396Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 5,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.449877,
+        23.108421
+      ]
+    },
+    "latitude": 23.108421,
+    "longitude": 78.449877
+  },
+  "violations": {
+    "total": 115,
+    "reported": 58
+  },
+  "challans": {
+    "total": 66,
+    "breakdown": {
+      "Speeding": 14,
+      "Red Light": 12,
+      "Wrong Way Driving": 6,
+      "No License": 18,
+      "Invalid Insurance": 2,
+      "Phone While Driving": 8,
+      "Overloading": 6
+    },
+    "collected_amount": 76015.94
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 950
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 98
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19267a"
+  },
+  "centerId": "XQQW-509",
+  "date": {
+    "$date": "2024-08-29T00:48:40.601Z"
+  },
+  "location": {
+    "zone": "West",
+    "district": 7,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        72.199659,
+        19.410052
+      ]
+    },
+    "latitude": 19.410052,
+    "longitude": 72.199659
+  },
+  "violations": {
+    "total": 204,
+    "reported": 154
+  },
+  "challans": {
+    "total": 155,
+    "breakdown": {
+      "Speeding": 1,
+      "Red Light": 16,
+      "No Helmet": 7,
+      "No Seatbelt": 20,
+      "Wrong Way Driving": 25,
+      "No License": 24,
+      "Invalid Insurance": 6,
+      "Phone While Driving": 7,
+      "Illegal Parking": 21,
+      "Lane Violation": 11,
+      "Overloading": 9,
+      "Modified Vehicle": 8
+    },
+    "collected_amount": 151772.21
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 693
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 43
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19267b"
+  },
+  "centerId": "KTCS-497",
+  "date": {
+    "$date": "2024-09-01T22:29:14.568Z"
+  },
+  "location": {
+    "zone": "North",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        76.195318,
+        30.542075
+      ]
+    },
+    "latitude": 30.542075,
+    "longitude": 76.195318
+  },
+  "violations": {
+    "total": 142,
+    "reported": 96
+  },
+  "challans": {
+    "total": 99,
+    "breakdown": {
+      "Red Light": 7,
+      "No Helmet": 1,
+      "No Seatbelt": 15,
+      "Drunk Driving": 5,
+      "Wrong Way Driving": 20,
+      "No License": 4,
+      "Invalid Insurance": 13,
+      "Illegal Parking": 11,
+      "Lane Violation": 4,
+      "Modified Vehicle": 6,
+      "Noise Pollution": 13
+    },
+    "collected_amount": 170413.67
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 300
+  },
+  "weather_conditions": "Rainy",
+  "peak_hour": true,
+  "enforcement_officers": 86
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19267c"
+  },
+  "centerId": "VZCG-362",
+  "date": {
+    "$date": "2025-01-31T21:23:02.369Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 6,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        88.07262,
+        22.080398
+      ]
+    },
+    "latitude": 22.080398,
+    "longitude": 88.07262
+  },
+  "violations": {
+    "total": 128,
+    "reported": 121
+  },
+  "challans": {
+    "total": 122,
+    "breakdown": {
+      "Speeding": 19,
+      "Red Light": 6,
+      "No Seatbelt": 24,
+      "Drunk Driving": 0,
+      "No License": 16,
+      "Phone While Driving": 3,
+      "Illegal Parking": 5,
+      "Overloading": 22,
+      "No Registration": 10,
+      "Modified Vehicle": 17
+    },
+    "collected_amount": 173107.41
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 220
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 27
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19267d"
+  },
+  "centerId": "TJRD-658",
+  "date": {
+    "$date": "2024-12-21T07:41:18.466Z"
+  },
+  "location": {
+    "zone": "East",
+    "district": 8,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        87.456895,
+        22.280281
+      ]
+    },
+    "latitude": 22.280281,
+    "longitude": 87.456895
+  },
+  "violations": {
+    "total": 161,
+    "reported": 140
+  },
+  "challans": {
+    "total": 141,
+    "breakdown": {
+      "Speeding": 16,
+      "Red Light": 6,
+      "No Helmet": 25,
+      "No Seatbelt": 16,
+      "Wrong Way Driving": 9,
+      "Phone While Driving": 9,
+      "Illegal Parking": 19,
+      "Lane Violation": 11,
+      "Overloading": 21,
+      "No Registration": 8,
+      "Modified Vehicle": 0,
+      "Noise Pollution": 1
+    },
+    "collected_amount": 142310.57
+  },
+  "accidents": {
+    "today": 4,
+    "overall": 600
+  },
+  "weather_conditions": "Foggy",
+  "peak_hour": false,
+  "enforcement_officers": 99
+},
+{
+  "_id": {
+    "$oid": "67b9dc335ed185130c19267e"
+  },
+  "centerId": "ZZAI-199",
+  "date": {
+    "$date": "2025-02-18T02:36:39.652Z"
+  },
+  "location": {
+    "zone": "Central",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        78.271563,
+        23.626503
+      ]
+    },
+    "latitude": 23.626503,
+    "longitude": 78.271563
+  },
+  "violations": {
+    "total": 189,
+    "reported": 145
+  },
+  "challans": {
+    "total": 151,
+    "breakdown": {
+      "Speeding": 12,
+      "No Helmet": 10,
+      "Drunk Driving": 18,
+      "No License": 2,
+      "Invalid Insurance": 20,
+      "Phone While Driving": 1,
+      "Illegal Parking": 19,
+      "Lane Violation": 25,
+      "Overloading": 23,
+      "Noise Pollution": 21
+    },
+    "collected_amount": 130409.15
+  },
+  "accidents": {
+    "today": 2,
+    "overall": 907
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": true,
+  "enforcement_officers": 24
+},
+{
+  "_id": {
+    "$oid": "67ba22355f9f1d0ebc355411"
+  },
+  "centerId": "TCA-001",
+  "date": {
+    "$date": "2024-09-11T06:23:42.162Z"
+  },
+  "location": {
+    "zone": "Pune",
+    "district": 1,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.90690857301867,
+        18.58676425801763
+      ]
+    },
+    "latitude": 18.601081948912995,
+    "longitude": 73.81627137235225
+  },
+  "violations": {
+    "total": 45,
+    "reported": 38
+  },
+  "challans": {
+    "total": 78,
+    "breakdown": {
+      "Speeding": 10,
+      "Red Light": 15,
+      "No Helmet": 5,
+      "Drunk Driving": 3,
+      "Wrong Way Driving": 12,
+      "No License": 4,
+      "Invalid Insurance": 7,
+      "Illegal Parking": 8,
+      "Lane Violation": 6,
+      "Modified Vehicle": 8
+    },
+    "collected_amount": 15600
+  },
+  "accidents": {
+    "today": 5,
+    "overall": 150
+  },
+  "weather_conditions": "Clear",
+  "peak_hour": true,
+  "enforcement_officers": 20
+},
+{
+  "_id": {
+    "$oid": "67ba22355f9f1d0ebc355412"
+  },
+  "centerId": "TCB-002",
+  "date": {
+    "$date": "2024-09-11T06:23:42.162Z"
+  },
+  "location": {
+    "zone": "Pune",
+    "district": 2,
+    "coordinates": {
+      "type": "Point",
+      "coordinates": [
+        73.81627137235225,
+        18.601081948912995
+      ]
+    },
+    "latitude": 18.601081948912995,
+    "longitude": 73.81627137235225
+  },
+  "violations": {
+    "total": 32,
+    "reported": 28
+  },
+  "challans": {
+    "total": 65,
+    "breakdown": {
+      "Speeding": 8,
+      "Red Light": 10,
+      "No Helmet": 6,
+      "Drunk Driving": 1,
+      "Wrong Way Driving": 9,
+      "No License": 3,
+      "Invalid Insurance": 5,
+      "Illegal Parking": 7,
+      "Lane Violation": 6,
+      "Modified Vehicle": 10
+    },
+    "collected_amount": 13000
+  },
+  "accidents": {
+    "today": 3,
+    "overall": 120
+  },
+  "weather_conditions": "Cloudy",
+  "peak_hour": false,
+  "enforcement_officers": 15
+}]
