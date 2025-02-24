@@ -12,7 +12,7 @@ export async function useAdmin(){
 
     else setIsAdmin(true);
 
-    setCenterId(payload.centerId)
+    setCenterId(payload.centerID)
 
     return {
         isAdmin,
