@@ -1,5 +1,5 @@
 type Admin {
-  centerID: ID!
+  centerID: String!
   password: String!
   lat: Float!
   lng: Float!
@@ -8,9 +8,9 @@ type Admin {
 
 type Query {
   admins: [Admin!]
-  admin(centerID: ID!, password: String!): Admin
+  admin(centerID: String!, password: String!): Admin
 }
 
 type Mutation {
-  addAdmin(centerID: ID!, password: String!, lat: Float!, lng: Float!, centerName: String!): Admin
+  addAdmin(centerID: String!, password: String!, lat: Float!, lng: Float!, centerName: String!): Admin
 }
