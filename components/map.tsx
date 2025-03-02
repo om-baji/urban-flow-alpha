@@ -110,7 +110,7 @@ const Response = () => {
 
       const bounds = new google.maps.LatLngBounds();
 
-      markers.forEach((value) => {
+      markers.forEach((value, index) => {
         try {
           const marker = new google.maps.Marker({
             position: { lat: value.lat, lng: value.lng },
@@ -122,6 +122,19 @@ const Response = () => {
             }
           });
 
+          if (index === 0) {
+            const circle = new google.maps.Circle({
+              strokeColor: "#FF0000",
+              strokeOpacity: 0.8,
+              strokeWeight: 2,
+              fillColor: "#FF0000",
+              fillOpacity: 0.35,
+              map,
+              center: { lat: value.lat, lng: value.lng },
+              radius: 1000 
+            });
+          }
+
           marker.addListener("click", () => {
             handleMarkerClick(value);
 
@@ -129,7 +142,7 @@ const Response = () => {
               center: { lat: value.lat, lng: value.lng },
               heading: 0,
               tilt: 45,
-              zoom: 19.90,
+              zoom: 15,
             });
 
             let heading = 0;

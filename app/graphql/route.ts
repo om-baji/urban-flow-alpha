@@ -20,7 +20,7 @@ type Query {
 }
 
 type Mutation {
-  addAdmin(centerID: ID!, password: String!, lat: Float!, lng: Float!, centerName: String!): Admin
+  addAdmin(centerID: String!, password: String!, lat: Float!, lng: Float!, centerName: String!): Admin
 }
 `
 
