@@ -1,8 +1,8 @@
 "use client";
+import Sidebar from "@/components/sidebar";
+import { gql, useQuery } from "@apollo/client";
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
-import { useQuery, gql } from "@apollo/client";
-import Sidebar from "@/components/sidebar";
 import { darkModeStyle } from "./darkMapstyle";
 
 const GET_ADMIN_LOCATIONS = gql`
@@ -133,6 +133,8 @@ const Response = () => {
               center: { lat: value.lat, lng: value.lng },
               radius: 1000 
             });
+
+            console.log(circle)
           }
 
           marker.addListener("click", () => {

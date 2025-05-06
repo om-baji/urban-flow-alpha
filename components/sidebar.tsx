@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import axios, { AxiosResponse } from "axios";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { AlertCircle, MapPin, Car, Receipt, X, Clock, Cloud, Shield, IndianRupee, AlertTriangle } from "lucide-react";
+import axios, { AxiosResponse } from "axios";
+import { AlertCircle, Car, Clock, Cloud, IndianRupee, MapPin, Receipt, Shield, X } from "lucide-react";
+import React, { useEffect, useState } from "react";
 
 interface TrafficStats {
   hours: string[];
@@ -90,6 +90,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, mapMarker }) => {
     }).format(amount);
   };
 
+  // console.log("test formatter ", formatCurrency(markerData))
+
+  console.log("MArker data" ,markerData)
   return (
     <div
       className={`fixed right-0 top-0 h-full bg-zinc-800 shadow-xl transition-transform duration-300 transform ${
@@ -179,7 +182,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, mapMarker }) => {
                       <IndianRupee className="h-5 w-5 text-green-500" />
                       <p className="text-sm text-gray-600">Amount Collected</p>
                     </div>
-                    <p className="font-bold">{formatCurrency(markerData.challans.collected_amount)}</p>
+                    <p className="font-bold">{formatCurrency(markerData.challans.collected_amount || 5716)}</p>
                   </div>
                 </CardContent>
               </Card>

@@ -1,0 +1,602 @@
+[
+    {
+      "centerId": "TCC-001",
+      "location": {
+        "zone": "North"
+      },
+      "enforcement_officers": 45,
+      "accidents": {
+        "today": 3,
+        "overall": 78,
+        "fatal": 12,
+        "nonFatal": 66
+      },
+      "violations": {
+        "total": 1245,
+        "reported": 1180,
+        "speeding": 584,
+        "redLight": 295,
+        "drunkDriving": 87,
+        "noHelmet": 279
+      },
+      "challans": {
+        "total": 1058,
+        "collected_amount": 845600,
+        "pending_amount": 187400,
+        "online_payment": 592000,
+        "offline_payment": 253600
+      },
+      "trafficVolume": {
+        "peak": 7850,
+        "offPeak": 3200,
+        "daily": 42500
+      },
+      "cameras": {
+        "operational": 42,
+        "total": 48
+      },
+      "response": {
+        "avgTimeMinutes": 8.4
+      }
+    },
+    {
+      "centerId": "TCC-002",
+      "location": {
+        "zone": "South"
+      },
+      "enforcement_officers": 38,
+      "accidents": {
+        "today": 5,
+        "overall": 105,
+        "fatal": 18,
+        "nonFatal": 87
+      },
+      "violations": {
+        "total": 1675,
+        "reported": 1580,
+        "speeding": 750,
+        "redLight": 380,
+        "drunkDriving": 120,
+        "noHelmet": 425
+      },
+      "challans": {
+        "total": 1430,
+        "collected_amount": 1144000,
+        "pending_amount": 286000,
+        "online_payment": 800800,
+        "offline_payment": 343200
+      },
+      "trafficVolume": {
+        "peak": 8900,
+        "offPeak": 3850,
+        "daily": 52000
+      },
+      "cameras": {
+        "operational": 38,
+        "total": 45
+      },
+      "response": {
+        "avgTimeMinutes": 9.2
+      }
+    },
+    {
+      "centerId": "TCC-003",
+      "location": {
+        "zone": "East"
+      },
+      "enforcement_officers": 32,
+      "accidents": {
+        "today": 2,
+        "overall": 62,
+        "fatal": 8,
+        "nonFatal": 54
+      },
+      "violations": {
+        "total": 950,
+        "reported": 925,
+        "speeding": 460,
+        "redLight": 215,
+        "drunkDriving": 58,
+        "noHelmet": 217
+      },
+      "challans": {
+        "total": 845,
+        "collected_amount": 676000,
+        "pending_amount": 169000,
+        "online_payment": 473200,
+        "offline_payment": 202800
+      },
+      "trafficVolume": {
+        "peak": 5400,
+        "offPeak": 2350,
+        "daily": 32000
+      },
+      "cameras": {
+        "operational": 26,
+        "total": 30
+      },
+      "response": {
+        "avgTimeMinutes": 7.8
+      }
+    },
+    {
+      "centerId": "TCC-004",
+      "location": {
+        "zone": "West"
+      },
+      "enforcement_officers": 40,
+      "accidents": {
+        "today": 4,
+        "overall": 87,
+        "fatal": 14,
+        "nonFatal": 73
+      },
+      "violations": {
+        "total": 1320,
+        "reported": 1280,
+        "speeding": 620,
+        "redLight": 310,
+        "drunkDriving": 92,
+        "noHelmet": 298
+      },
+      "challans": {
+        "total": 1185,
+        "collected_amount": 948000,
+        "pending_amount": 237000,
+        "online_payment": 663600,
+        "offline_payment": 284400
+      },
+      "trafficVolume": {
+        "peak": 6800,
+        "offPeak": 2950,
+        "daily": 38000
+      },
+      "cameras": {
+        "operational": 35,
+        "total": 40
+      },
+      "response": {
+        "avgTimeMinutes": 8.9
+      }
+    },
+    {
+      "centerId": "TCC-005",
+      "location": {
+        "zone": "Central"
+      },
+      "enforcement_officers": 55,
+      "accidents": {
+        "today": 7,
+        "overall": 136,
+        "fatal": 24,
+        "nonFatal": 112
+      },
+      "violations": {
+        "total": 2150,
+        "reported": 2080,
+        "speeding": 1050,
+        "redLight": 480,
+        "drunkDriving": 185,
+        "noHelmet": 435
+      },
+      "challans": {
+        "total": 1945,
+        "collected_amount": 1556000,
+        "pending_amount": 389000,
+        "online_payment": 1089200,
+        "offline_payment": 466800
+      },
+      "trafficVolume": {
+        "peak": 12800,
+        "offPeak": 5600,
+        "daily": 67000
+      },
+      "cameras": {
+        "operational": 62,
+        "total": 65
+      },
+      "response": {
+        "avgTimeMinutes": 6.2
+      }
+    },
+    {
+      "centerId": "TCC-006",
+      "location": {
+        "zone": "North"
+      },
+      "enforcement_officers": 28,
+      "accidents": {
+        "today": 1,
+        "overall": 52,
+        "fatal": 7,
+        "nonFatal": 45
+      },
+      "violations": {
+        "total": 780,
+        "reported": 765,
+        "speeding": 385,
+        "redLight": 170,
+        "drunkDriving": 45,
+        "noHelmet": 180
+      },
+      "challans": {
+        "total": 720,
+        "collected_amount": 576000,
+        "pending_amount": 144000,
+        "online_payment": 403200,
+        "offline_payment": 172800
+      },
+      "trafficVolume": {
+        "peak": 4500,
+        "offPeak": 1950,
+        "daily": 27500
+      },
+      "cameras": {
+        "operational": 24,
+        "total": 28
+      },
+      "response": {
+        "avgTimeMinutes": 9.8
+      }
+    },
+    {
+      "centerId": "TCC-007",
+      "location": {
+        "zone": "South"
+      },
+      "enforcement_officers": 34,
+      "accidents": {
+        "today": 3,
+        "overall": 75,
+        "fatal": 12,
+        "nonFatal": 63
+      },
+      "violations": {
+        "total": 1120,
+        "reported": 1095,
+        "speeding": 520,
+        "redLight": 265,
+        "drunkDriving": 78,
+        "noHelmet": 257
+      },
+      "challans": {
+        "total": 985,
+        "collected_amount": 788000,
+        "pending_amount": 197000,
+        "online_payment": 551600,
+        "offline_payment": 236400
+      },
+      "trafficVolume": {
+        "peak": 6200,
+        "offPeak": 2750,
+        "daily": 36000
+      },
+      "cameras": {
+        "operational": 30,
+        "total": 35
+      },
+      "response": {
+        "avgTimeMinutes": 8.6
+      }
+    },
+    {
+      "centerId": "TCC-008",
+      "location": {
+        "zone": "East"
+      },
+      "enforcement_officers": 26,
+      "accidents": {
+        "today": 2,
+        "overall": 48,
+        "fatal": 6,
+        "nonFatal": 42
+      },
+      "violations": {
+        "total": 680,
+        "reported": 670,
+        "speeding": 320,
+        "redLight": 150,
+        "drunkDriving": 40,
+        "noHelmet": 170
+      },
+      "challans": {
+        "total": 615,
+        "collected_amount": 492000,
+        "pending_amount": 123000,
+        "online_payment": 344400,
+        "offline_payment": 147600
+      },
+      "trafficVolume": {
+        "peak": 3900,
+        "offPeak": 1700,
+        "daily": 24000
+      },
+      "cameras": {
+        "operational": 20,
+        "total": 24
+      },
+      "response": {
+        "avgTimeMinutes": 10.2
+      }
+    },
+    {
+      "centerId": "TCC-009",
+      "location": {
+        "zone": "West"
+      },
+      "enforcement_officers": 30,
+      "accidents": {
+        "today": 3,
+        "overall": 68,
+        "fatal": 11,
+        "nonFatal": 57
+      },
+      "violations": {
+        "total": 980,
+        "reported": 960,
+        "speeding": 450,
+        "redLight": 230,
+        "drunkDriving": 65,
+        "noHelmet": 235
+      },
+      "challans": {
+        "total": 895,
+        "collected_amount": 716000,
+        "pending_amount": 179000,
+        "online_payment": 501200,
+        "offline_payment": 214800
+      },
+      "trafficVolume": {
+        "peak": 5700,
+        "offPeak": 2500,
+        "daily": 32500
+      },
+      "cameras": {
+        "operational": 28,
+        "total": 32
+      },
+      "response": {
+        "avgTimeMinutes": 9.5
+      }
+    },
+    {
+      "centerId": "TCC-010",
+      "location": {
+        "zone": "Central"
+      },
+      "enforcement_officers": 42,
+      "accidents": {
+        "today": 5,
+        "overall": 98,
+        "fatal": 16,
+        "nonFatal": 82
+      },
+      "violations": {
+        "total": 1450,
+        "reported": 1420,
+        "speeding": 690,
+        "redLight": 325,
+        "drunkDriving": 110,
+        "noHelmet": 325
+      },
+      "challans": {
+        "total": 1350,
+        "collected_amount": 1080000,
+        "pending_amount": 270000,
+        "online_payment": 756000,
+        "offline_payment": 324000
+      },
+      "trafficVolume": {
+        "peak": 8400,
+        "offPeak": 3650,
+        "daily": 48000
+      },
+      "cameras": {
+        "operational": 38,
+        "total": 40
+      },
+      "response": {
+        "avgTimeMinutes": 7.2
+      }
+    },
+    {
+      "centerId": "TCC-011",
+      "location": {
+        "zone": "North"
+      },
+      "enforcement_officers": 36,
+      "accidents": {
+        "today": 4,
+        "overall": 82,
+        "fatal": 13,
+        "nonFatal": 69
+      },
+      "violations": {
+        "total": 1180,
+        "reported": 1155,
+        "speeding": 570,
+        "redLight": 280,
+        "drunkDriving": 83,
+        "noHelmet": 247
+      },
+      "challans": {
+        "total": 1050,
+        "collected_amount": 840000,
+        "pending_amount": 210000,
+        "online_payment": 588000,
+        "offline_payment": 252000
+      },
+      "trafficVolume": {
+        "peak": 6900,
+        "offPeak": 3000,
+        "daily": 39500
+      },
+      "cameras": {
+        "operational": 32,
+        "total": 36
+      },
+      "response": {
+        "avgTimeMinutes": 8.7
+      }
+    },
+    {
+      "centerId": "TCC-012",
+      "location": {
+        "zone": "South"
+      },
+      "enforcement_officers": 40,
+      "accidents": {
+        "today": 4,
+        "overall": 92,
+        "fatal": 15,
+        "nonFatal": 77
+      },
+      "violations": {
+        "total": 1380,
+        "reported": 1350,
+        "speeding": 650,
+        "redLight": 315,
+        "drunkDriving": 95,
+        "noHelmet": 320
+      },
+      "challans": {
+        "total": 1280,
+        "collected_amount": 1024000,
+        "pending_amount": 256000,
+        "online_payment": 716800,
+        "offline_payment": 307200
+      },
+      "trafficVolume": {
+        "peak": 7600,
+        "offPeak": 3300,
+        "daily": 43000
+      },
+      "cameras": {
+        "operational": 35,
+        "total": 38
+      },
+      "response": {
+        "avgTimeMinutes": 8.5
+      }
+    },
+    {
+      "centerId": "TCC-013",
+      "location": {
+        "zone": "East"
+      },
+      "enforcement_officers": 30,
+      "accidents": {
+        "today": 2,
+        "overall": 55,
+        "fatal": 9,
+        "nonFatal": 46
+      },
+      "violations": {
+        "total": 820,
+        "reported": 805,
+        "speeding": 385,
+        "redLight": 190,
+        "drunkDriving": 50,
+        "noHelmet": 195
+      },
+      "challans": {
+        "total": 765,
+        "collected_amount": 612000,
+        "pending_amount": 153000,
+        "online_payment": 428400,
+        "offline_payment": 183600
+      },
+      "trafficVolume": {
+        "peak": 4800,
+        "offPeak": 2100,
+        "daily": 28500
+      },
+      "cameras": {
+        "operational": 25,
+        "total": 28
+      },
+      "response": {
+        "avgTimeMinutes": 9.1
+      }
+    },
+    {
+      "centerId": "TCC-014",
+      "location": {
+        "zone": "West"
+      },
+      "enforcement_officers": 35,
+      "accidents": {
+        "today": 3,
+        "overall": 78,
+        "fatal": 12,
+        "nonFatal": 66
+      },
+      "violations": {
+        "total": 1150,
+        "reported": 1125,
+        "speeding": 540,
+        "redLight": 265,
+        "drunkDriving": 78,
+        "noHelmet": 267
+      },
+      "challans": {
+        "total": 1050,
+        "collected_amount": 840000,
+        "pending_amount": 210000,
+        "online_payment": 588000,
+        "offline_payment": 252000
+      },
+      "trafficVolume": {
+        "peak": 6300,
+        "offPeak": 2750,
+        "daily": 36000
+      },
+      "cameras": {
+        "operational": 30,
+        "total": 34
+      },
+      "response": {
+        "avgTimeMinutes": 8.8
+      }
+    },
+    {
+      "centerId": "TCC-015",
+      "location": {
+        "zone": "Central"
+      },
+      "enforcement_officers": 48,
+      "accidents": {
+        "today": 6,
+        "overall": 110,
+        "fatal": 18,
+        "nonFatal": 92
+      },
+      "violations": {
+        "total": 1650,
+        "reported": 1615,
+        "speeding": 780,
+        "redLight": 380,
+        "drunkDriving": 125,
+        "noHelmet": 365
+      },
+      "challans": {
+        "total": 1520,
+        "collected_amount": 1216000,
+        "pending_amount": 304000,
+        "online_payment": 851200,
+        "offline_payment": 364800
+      },
+      "trafficVolume": {
+        "peak": 9500,
+        "offPeak": 4100,
+        "daily": 54000
+      },
+      "cameras": {
+        "operational": 42,
+        "total": 45
+      },
+      "response": {
+        "avgTimeMinutes": 6.9
+      }
+    }
+  ]

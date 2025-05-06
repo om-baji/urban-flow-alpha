@@ -32,7 +32,7 @@ const Sudo = () => {
             Validate
         </Button>
         </div>
-        <p className='text-muted text-white'>Don't have one? <Link href="/signin" >Login</Link></p>
+        <p className='text-muted text-white'>Don&apost have one? <Link href="/signin" >Login</Link></p>
     </div>
   )
 }

@@ -91,7 +91,7 @@ await dbConnect();
 
 const server = new ApolloServer({ typeDefs, resolvers });
 const handler = startServerAndCreateNextHandler(server, {
-  //@ts-ignore
+  //@ts-expect-error
   context: async (req: NextRequest, res: NextResponse) => ({
     req,
     res,
